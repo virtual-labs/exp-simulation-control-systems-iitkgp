@@ -1,0 +1,174 @@
+/* This HTML page and script files are developed by
+    Piyali Chattopadhyay
+    Project Scientist-Technical,
+    Virtual Labs IIT Kharagpur.*/
+
+
+/*.col-md-5{
+	
+    width: 41.67%;
+    min-width: 231px;
+    float:left;
+    /*position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+	background-color: none;
+    text-align: center;
+}
+
+/*div.col-xs-6:nth-child(1){
+    background-color: rgb(0,255,0);
+}*/
+
+
+
+/*.col-md-5 img{
+    max-width: 100%;
+}*/
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+
+
+
+ #z{
+position: absolute;
+    top: 36%;
+    left: 52%;
+    width: 8%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;	  
+  }
+  #k{
+	  display:none;
+position: absolute;
+    top: 21%;
+    left: 56%;
+    width: 8%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;	  
+  }
+  #k2{
+	  display:none;
+position: absolute;
+    top: 21%;
+    left: 56%;
+    width: 8%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;	  
+  }
+  
+  
+  #v{
+	display: none;
+    position: absolute;
+    top: 36%;
+    left: 90%;
+    width: 12%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;  
+  } 
+  
+   #speed{
+	 display: none;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    width: 16%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;
+    color: red; 
+  }
+  
+  #armamp{
+	display: none;
+    position: absolute;
+    top: -6%;
+    left: 41%;
+    width: 16%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;
+    color: red;
+  }
+  
+  #torque{
+	display: none;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 16%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;
+    color: red;
+  }
+  
+   #load_torque{
+	display: none;
+    position: absolute;
+    top: 88%;
+    left: 5%;
+    width: 16%;
+    height: 9.4%;
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;
+    color: red;
+  }
+  
+  #sspan{
+	  position:absolute;
+	  left:2%;
+	  top:17%;	  
+  }
+  #aspan{
+	  position: absolute;
+    left: 7%;
+    top: -5%;	  
+  }
+  #tmspan{
+	  position:absolute;
+	  left:-10%;
+	  top:76%;	  
+  }
+  #tlspan{
+	  position:absolute;
+	  left:-10%;
+	  top:89%;	  
+  }
+  
+  #vspan{
+	  position:absolute;
+	  left:88%;
+	  top:18%;	  
+  }
+  
+  
+  
+  
+  
+  
+  

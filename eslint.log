@@ -1,0 +1,702 @@
+
+/home/runner/work/exp-simulation-control-systems-iitkgp/exp-simulation-control-systems-iitkgp/experiment/simulation/js/cs.js
+     8:10   warning  'problem1' is defined but never used             no-unused-vars
+    36:10   warning  'problem2' is defined but never used             no-unused-vars
+    63:10   warning  'problem3' is defined but never used             no-unused-vars
+    90:10   warning  'problem4' is defined but never used             no-unused-vars
+   119:10   warning  'tostep' is defined but never used               no-unused-vars
+   125:10   warning  'toimpulse' is defined but never used            no-unused-vars
+   147:14   warning  'math' is not defined                            no-undef
+   147:32   warning  'math' is not defined                            no-undef
+   147:42   warning  'math' is not defined                            no-undef
+   147:59   warning  'math' is not defined                            no-undef
+   148:11   warning  'math' is not defined                            no-undef
+   150:10   warning  'math' is not defined                            no-undef
+   150:22   warning  'math' is not defined                            no-undef
+   150:36   warning  'math' is not defined                            no-undef
+   153:10   warning  'math' is not defined                            no-undef
+   153:22   warning  'math' is not defined                            no-undef
+   156:10   warning  'math' is not defined                            no-undef
+   156:24   warning  'math' is not defined                            no-undef
+   163:10   warning  'math' is not defined                            no-undef
+   163:26   warning  'math' is not defined                            no-undef
+   163:35   warning  'math' is not defined                            no-undef
+   167:8    warning  'math' is not defined                            no-undef
+   167:24   warning  'math' is not defined                            no-undef
+   167:33   warning  'math' is not defined                            no-undef
+   168:8    warning  'math' is not defined                            no-undef
+   168:24   warning  'math' is not defined                            no-undef
+   168:33   warning  'math' is not defined                            no-undef
+   178:9    warning  't' is already defined                           no-redeclare
+   180:13   warning  'math' is not defined                            no-undef
+   180:22   warning  'math' is not defined                            no-undef
+   180:30   warning  'math' is not defined                            no-undef
+   181:10   warning  'math' is not defined                            no-undef
+   181:27   warning  'math' is not defined                            no-undef
+   181:43   warning  'math' is not defined                            no-undef
+   199:9    warning  't' is already defined                           no-redeclare
+   200:10   warning  'math' is not defined                            no-undef
+   200:28   warning  'math' is not defined                            no-undef
+   200:38   warning  'math' is not defined                            no-undef
+   200:55   warning  'math' is not defined                            no-undef
+   201:13   warning  'math' is not defined                            no-undef
+   202:14   warning  'math' is not defined                            no-undef
+   202:23   warning  'math' is not defined                            no-undef
+   202:31   warning  'math' is not defined                            no-undef
+   203:13   warning  'math' is not defined                            no-undef
+   203:23   warning  'math' is not defined                            no-undef
+   203:40   warning  'math' is not defined                            no-undef
+   205:10   warning  'math' is not defined                            no-undef
+   205:27   warning  'math' is not defined                            no-undef
+   205:41   warning  'math' is not defined                            no-undef
+   205:68   warning  'math' is not defined                            no-undef
+   205:77   warning  'math' is not defined                            no-undef
+   205:86   warning  'math' is not defined                            no-undef
+   210:5    warning  'wd' is already defined                          no-redeclare
+   210:10   warning  'math' is not defined                            no-undef
+   210:28   warning  'math' is not defined                            no-undef
+   210:38   warning  'math' is not defined                            no-undef
+   210:55   warning  'math' is not defined                            no-undef
+   211:5    warning  'theta' is already defined                       no-redeclare
+   211:13   warning  'math' is not defined                            no-undef
+   212:5    warning  'rootz' is already defined                       no-redeclare
+   212:13   warning  'math' is not defined                            no-undef
+   212:23   warning  'math' is not defined                            no-undef
+   212:40   warning  'math' is not defined                            no-undef
+   214:16   warning  'math' is not defined                            no-undef
+   214:25   warning  'math' is not defined                            no-undef
+   214:33   warning  'math' is not defined                            no-undef
+   215:16   warning  'math' is not defined                            no-undef
+   215:25   warning  'math' is not defined                            no-undef
+   215:33   warning  'math' is not defined                            no-undef
+   216:16   warning  'math' is not defined                            no-undef
+   216:25   warning  'math' is not defined                            no-undef
+   216:33   warning  'math' is not defined                            no-undef
+   218:7    warning  'math' is not defined                            no-undef
+   218:24   warning  'math' is not defined                            no-undef
+   218:38   warning  'math' is not defined                            no-undef
+   218:67   warning  'math' is not defined                            no-undef
+   218:76   warning  'math' is not defined                            no-undef
+   218:85   warning  'math' is not defined                            no-undef
+   219:7    warning  'math' is not defined                            no-undef
+   219:24   warning  'math' is not defined                            no-undef
+   219:38   warning  'math' is not defined                            no-undef
+   219:67   warning  'math' is not defined                            no-undef
+   219:76   warning  'math' is not defined                            no-undef
+   219:85   warning  'math' is not defined                            no-undef
+   220:7    warning  'math' is not defined                            no-undef
+   220:24   warning  'math' is not defined                            no-undef
+   220:38   warning  'math' is not defined                            no-undef
+   220:67   warning  'math' is not defined                            no-undef
+   220:76   warning  'math' is not defined                            no-undef
+   220:85   warning  'math' is not defined                            no-undef
+   232:10   warning  'math' is not defined                            no-undef
+   232:24   warning  'math' is not defined                            no-undef
+   232:33   warning  'math' is not defined                            no-undef
+   232:42   warning  'math' is not defined                            no-undef
+   232:54   warning  'math' is not defined                            no-undef
+   232:73   warning  'math' is not defined                            no-undef
+   232:83   warning  'math' is not defined                            no-undef
+   232:93   warning  'math' is not defined                            no-undef
+   232:110  warning  'math' is not defined                            no-undef
+   238:18   warning  'CanvasJS' is not defined                        no-undef
+   241:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   242:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   244:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   246:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   247:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   252:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   263:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   271:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   279:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   289:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   296:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   303:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   335:10   warning  'math' is not defined                            no-undef
+   335:27   warning  'math' is not defined                            no-undef
+   335:36   warning  'math' is not defined                            no-undef
+   344:9    warning  't' is already defined                           no-redeclare
+   346:13   warning  'math' is not defined                            no-undef
+   346:22   warning  'math' is not defined                            no-undef
+   346:30   warning  'math' is not defined                            no-undef
+   347:10   warning  'math' is not defined                            no-undef
+   347:24   warning  'math' is not defined                            no-undef
+   355:9    warning  't' is already defined                           no-redeclare
+   356:10   warning  'math' is not defined                            no-undef
+   356:28   warning  'math' is not defined                            no-undef
+   356:38   warning  'math' is not defined                            no-undef
+   356:55   warning  'math' is not defined                            no-undef
+   357:5    warning  'theta' is assigned a value but never used       no-unused-vars
+   357:13   warning  'math' is not defined                            no-undef
+   358:14   warning  'math' is not defined                            no-undef
+   358:23   warning  'math' is not defined                            no-undef
+   358:31   warning  'math' is not defined                            no-undef
+   359:13   warning  'math' is not defined                            no-undef
+   359:23   warning  'math' is not defined                            no-undef
+   359:40   warning  'math' is not defined                            no-undef
+   361:10   warning  'math' is not defined                            no-undef
+   361:24   warning  'math' is not defined                            no-undef
+   361:51   warning  'math' is not defined                            no-undef
+   361:60   warning  'math' is not defined                            no-undef
+   372:18   warning  'CanvasJS' is not defined                        no-undef
+   375:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   376:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   378:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   380:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   381:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   386:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   414:10   warning  'rootloci' is defined but never used             no-unused-vars
+   424:16   warning  'math' is not defined                            no-undef
+   424:28   warning  'math' is not defined                            no-undef
+   429:13   warning  'math' is not defined                            no-undef
+   445:18   warning  'CanvasJS' is not defined                        no-undef
+   451:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   453:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   455:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   456:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   463:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   475:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   483:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   491:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   499:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   507:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   515:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   521:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   532:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   545:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   559:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   569:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   589:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   601:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   619:13   warning  'math' is not defined                            no-undef
+   629:15   warning  'math' is not defined                            no-undef
+   629:32   warning  'math' is not defined                            no-undef
+   629:46   warning  'math' is not defined                            no-undef
+   629:73   warning  'math' is not defined                            no-undef
+   630:15   warning  'math' is not defined                            no-undef
+   630:32   warning  'math' is not defined                            no-undef
+   630:46   warning  'math' is not defined                            no-undef
+   630:73   warning  'math' is not defined                            no-undef
+   631:15   warning  'math' is not defined                            no-undef
+   631:32   warning  'math' is not defined                            no-undef
+   631:46   warning  'math' is not defined                            no-undef
+   631:73   warning  'math' is not defined                            no-undef
+   634:13   warning  'math' is not defined                            no-undef
+   634:34   warning  'math' is not defined                            no-undef
+   634:43   warning  'math' is not defined                            no-undef
+   634:50   warning  'math' is not defined                            no-undef
+   635:13   warning  'math' is not defined                            no-undef
+   635:34   warning  'math' is not defined                            no-undef
+   635:43   warning  'math' is not defined                            no-undef
+   635:50   warning  'math' is not defined                            no-undef
+   636:13   warning  'math' is not defined                            no-undef
+   636:34   warning  'math' is not defined                            no-undef
+   636:43   warning  'math' is not defined                            no-undef
+   636:50   warning  'math' is not defined                            no-undef
+   638:15   warning  'math' is not defined                            no-undef
+   638:31   warning  'math' is not defined                            no-undef
+   649:18   warning  'CanvasJS' is not defined                        no-undef
+   652:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   653:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   655:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   657:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   658:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   663:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   694:13   warning  'math' is not defined                            no-undef
+   704:17   warning  'math' is not defined                            no-undef
+   704:34   warning  'math' is not defined                            no-undef
+   704:48   warning  'math' is not defined                            no-undef
+   704:71   warning  'math' is not defined                            no-undef
+   704:94   warning  'math' is not defined                            no-undef
+   705:15   warning  'math' is not defined                            no-undef
+   705:32   warning  'math' is not defined                            no-undef
+   705:52   warning  'math' is not defined                            no-undef
+   705:79   warning  'math' is not defined                            no-undef
+   706:15   warning  'math' is not defined                            no-undef
+   706:32   warning  'math' is not defined                            no-undef
+   706:52   warning  'math' is not defined                            no-undef
+   706:79   warning  'math' is not defined                            no-undef
+   707:15   warning  'math' is not defined                            no-undef
+   707:32   warning  'math' is not defined                            no-undef
+   707:52   warning  'math' is not defined                            no-undef
+   707:79   warning  'math' is not defined                            no-undef
+   710:13   warning  'math' is not defined                            no-undef
+   710:34   warning  'math' is not defined                            no-undef
+   710:43   warning  'math' is not defined                            no-undef
+   710:50   warning  'math' is not defined                            no-undef
+   711:13   warning  'math' is not defined                            no-undef
+   711:34   warning  'math' is not defined                            no-undef
+   711:43   warning  'math' is not defined                            no-undef
+   711:50   warning  'math' is not defined                            no-undef
+   712:13   warning  'math' is not defined                            no-undef
+   712:34   warning  'math' is not defined                            no-undef
+   712:43   warning  'math' is not defined                            no-undef
+   712:50   warning  'math' is not defined                            no-undef
+   714:15   warning  'math' is not defined                            no-undef
+   714:31   warning  'math' is not defined                            no-undef
+   725:18   warning  'CanvasJS' is not defined                        no-undef
+   728:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   729:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   731:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   733:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   734:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   739:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   767:10   warning  'DC_Motor' is defined but never used             no-unused-vars
+   774:9    warning  'math' is not defined                            no-undef
+   774:26   warning  'math' is not defined                            no-undef
+   779:10   warning  'math' is not defined                            no-undef
+   779:25   warning  'math' is not defined                            no-undef
+   779:34   warning  'math' is not defined                            no-undef
+   779:54   warning  'math' is not defined                            no-undef
+   780:12   warning  'math' is not defined                            no-undef
+   780:24   warning  'math' is not defined                            no-undef
+   780:44   warning  'math' is not defined                            no-undef
+   780:53   warning  'math' is not defined                            no-undef
+   780:73   warning  'math' is not defined                            no-undef
+   784:9    warning  'math' is not defined                            no-undef
+   784:23   warning  'math' is not defined                            no-undef
+   784:45   warning  'math' is not defined                            no-undef
+   784:61   warning  'math' is not defined                            no-undef
+   784:70   warning  'math' is not defined                            no-undef
+   784:78   warning  'math' is not defined                            no-undef
+   786:10   warning  'math' is not defined                            no-undef
+   786:24   warning  'math' is not defined                            no-undef
+   786:48   warning  'math' is not defined                            no-undef
+   789:5    warning  'N' is assigned a value but never used           no-unused-vars
+   789:9    warning  'math' is not defined                            no-undef
+   789:21   warning  'math' is not defined                            no-undef
+   789:45   warning  'math' is not defined                            no-undef
+   789:61   warning  'math' is not defined                            no-undef
+   791:10   warning  'math' is not defined                            no-undef
+   791:22   warning  'math' is not defined                            no-undef
+   794:9    warning  'math' is not defined                            no-undef
+   797:10   warning  'math' is not defined                            no-undef
+   814:18   warning  'CanvasJS' is not defined                        no-undef
+   817:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   818:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   820:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   822:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   823:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   828:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   855:10   warning  'Bode' is defined but never used                 no-unused-vars
+   868:14   warning  'math' is not defined                            no-undef
+   870:13   warning  'math' is not defined                            no-undef
+   871:13   warning  'math' is not defined                            no-undef
+   872:12   warning  'math' is not defined                            no-undef
+   872:22   warning  'math' is not defined                            no-undef
+   873:12   warning  'math' is not defined                            no-undef
+   874:14   warning  'math' is not defined                            no-undef
+   874:31   warning  'math' is not defined                            no-undef
+   876:13   warning  'math' is not defined                            no-undef
+   876:27   warning  'math' is not defined                            no-undef
+   876:41   warning  'math' is not defined                            no-undef
+   876:58   warning  'math' is not defined                            no-undef
+   876:74   warning  'math' is not defined                            no-undef
+   876:85   warning  'math' is not defined                            no-undef
+   876:99   warning  'math' is not defined                            no-undef
+   876:109  warning  'math' is not defined                            no-undef
+   876:131  warning  'math' is not defined                            no-undef
+   876:147  warning  'math' is not defined                            no-undef
+   883:12   warning  'math' is not defined                            no-undef
+   884:17   warning  'math' is not defined                            no-undef
+   886:16   warning  'math' is not defined                            no-undef
+   887:16   warning  'math' is not defined                            no-undef
+   888:15   warning  'math' is not defined                            no-undef
+   888:25   warning  'math' is not defined                            no-undef
+   889:16   warning  'math' is not defined                            no-undef
+   890:10   warning  'math' is not defined                            no-undef
+   891:12   warning  'math' is not defined                            no-undef
+   891:29   warning  'math' is not defined                            no-undef
+   894:17   warning  'math' is not defined                            no-undef
+   895:13   warning  'math' is not defined                            no-undef
+   896:12   warning  'math' is not defined                            no-undef
+   897:12   warning  'math' is not defined                            no-undef
+   897:26   warning  'math' is not defined                            no-undef
+   897:40   warning  'math' is not defined                            no-undef
+   897:56   warning  'math' is not defined                            no-undef
+   897:72   warning  'math' is not defined                            no-undef
+   897:83   warning  'math' is not defined                            no-undef
+   897:97   warning  'math' is not defined                            no-undef
+   897:107  warning  'math' is not defined                            no-undef
+   897:128  warning  'math' is not defined                            no-undef
+   897:144  warning  'math' is not defined                            no-undef
+   898:10   warning  'math' is not defined                            no-undef
+   908:18   warning  'CanvasJS' is not defined                        no-undef
+   914:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   916:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   918:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   919:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   920:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   925:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   939:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   950:19   warning  'CanvasJS' is not defined                        no-undef
+   956:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   958:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   960:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   961:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   962:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   967:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   981:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+   996:10   warning  'Nyquist' is defined but never used              no-unused-vars
+  1010:14   warning  'math' is not defined                            no-undef
+  1012:13   warning  'math' is not defined                            no-undef
+  1013:13   warning  'math' is not defined                            no-undef
+  1014:12   warning  'math' is not defined                            no-undef
+  1014:22   warning  'math' is not defined                            no-undef
+  1015:12   warning  'math' is not defined                            no-undef
+  1018:13   warning  'math' is not defined                            no-undef
+  1018:22   warning  'math' is not defined                            no-undef
+  1018:36   warning  'math' is not defined                            no-undef
+  1018:50   warning  'math' is not defined                            no-undef
+  1018:67   warning  'math' is not defined                            no-undef
+  1018:83   warning  'math' is not defined                            no-undef
+  1018:94   warning  'math' is not defined                            no-undef
+  1018:108  warning  'math' is not defined                            no-undef
+  1018:118  warning  'math' is not defined                            no-undef
+  1018:140  warning  'math' is not defined                            no-undef
+  1018:156  warning  'math' is not defined                            no-undef
+  1021:16   warning  'math' is not defined                            no-undef
+  1023:5    warning  'sinAlpha' is assigned a value but never used    no-unused-vars
+  1023:16   warning  'math' is not defined                            no-undef
+  1023:30   warning  'math' is not defined                            no-undef
+  1023:49   warning  'math' is not defined                            no-undef
+  1023:65   warning  'math' is not defined                            no-undef
+  1024:5    warning  'cosAlpha' is assigned a value but never used    no-unused-vars
+  1024:16   warning  'math' is not defined                            no-undef
+  1024:30   warning  'math' is not defined                            no-undef
+  1024:49   warning  'math' is not defined                            no-undef
+  1024:65   warning  'math' is not defined                            no-undef
+  1032:19   warning  'math' is not defined                            no-undef
+  1032:38   warning  'math' is not defined                            no-undef
+  1033:19   warning  'math' is not defined                            no-undef
+  1033:38   warning  'math' is not defined                            no-undef
+  1046:10   warning  'math' is not defined                            no-undef
+  1048:10   warning  'math' is not defined                            no-undef
+  1049:10   warning  'math' is not defined                            no-undef
+  1050:9    warning  'math' is not defined                            no-undef
+  1050:19   warning  'math' is not defined                            no-undef
+  1051:9    warning  'math' is not defined                            no-undef
+  1054:9    warning  'math' is not defined                            no-undef
+  1054:18   warning  'math' is not defined                            no-undef
+  1054:32   warning  'math' is not defined                            no-undef
+  1054:46   warning  'math' is not defined                            no-undef
+  1054:59   warning  'math' is not defined                            no-undef
+  1054:75   warning  'math' is not defined                            no-undef
+  1054:86   warning  'math' is not defined                            no-undef
+  1054:100  warning  'math' is not defined                            no-undef
+  1054:110  warning  'math' is not defined                            no-undef
+  1054:128  warning  'math' is not defined                            no-undef
+  1054:144  warning  'math' is not defined                            no-undef
+  1057:14   warning  'math' is not defined                            no-undef
+  1059:5    warning  'sAlpha' is assigned a value but never used      no-unused-vars
+  1059:14   warning  'math' is not defined                            no-undef
+  1059:28   warning  'math' is not defined                            no-undef
+  1059:45   warning  'math' is not defined                            no-undef
+  1059:61   warning  'math' is not defined                            no-undef
+  1060:5    warning  'cAlpha' is assigned a value but never used      no-unused-vars
+  1060:14   warning  'math' is not defined                            no-undef
+  1060:28   warning  'math' is not defined                            no-undef
+  1060:45   warning  'math' is not defined                            no-undef
+  1060:61   warning  'math' is not defined                            no-undef
+  1062:11   warning  'math' is not defined                            no-undef
+  1062:27   warning  'math' is not defined                            no-undef
+  1063:11   warning  'math' is not defined                            no-undef
+  1063:27   warning  'math' is not defined                            no-undef
+  1067:12   warning  'math' is not defined                            no-undef
+  1068:17   warning  'math' is not defined                            no-undef
+  1070:16   warning  'math' is not defined                            no-undef
+  1071:16   warning  'math' is not defined                            no-undef
+  1072:15   warning  'math' is not defined                            no-undef
+  1072:25   warning  'math' is not defined                            no-undef
+  1073:16   warning  'math' is not defined                            no-undef
+  1074:10   warning  'math' is not defined                            no-undef
+  1078:17   warning  'math' is not defined                            no-undef
+  1079:13   warning  'math' is not defined                            no-undef
+  1081:12   warning  'math' is not defined                            no-undef
+  1082:12   warning  'math' is not defined                            no-undef
+  1082:26   warning  'math' is not defined                            no-undef
+  1082:40   warning  'math' is not defined                            no-undef
+  1082:56   warning  'math' is not defined                            no-undef
+  1082:72   warning  'math' is not defined                            no-undef
+  1082:83   warning  'math' is not defined                            no-undef
+  1082:97   warning  'math' is not defined                            no-undef
+  1082:107  warning  'math' is not defined                            no-undef
+  1082:128  warning  'math' is not defined                            no-undef
+  1082:144  warning  'math' is not defined                            no-undef
+  1083:10   warning  'math' is not defined                            no-undef
+  1096:18   warning  'CanvasJS' is not defined                        no-undef
+  1102:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1104:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1106:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1107:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1108:2    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1115:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1126:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1134:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1142:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1151:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1165:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1173:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1180:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1182:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1183:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1184:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1189:1    warning  Mixed spaces and tabs                            no-mixed-spaces-and-tabs
+  1204:10   warning  'problem1_simulation' is defined but never used  no-unused-vars
+  1218:11   warning  'loci_plot' is defined but never used            no-unused-vars
+  1234:10   warning  'Refresh' is defined but never used              no-unused-vars
+  1247:10   warning  'ok3d' is defined but never used                 no-unused-vars
+
+/home/runner/work/exp-simulation-control-systems-iitkgp/exp-simulation-control-systems-iitkgp/experiment/simulation/js/demo.js
+    8:1   warning  'jsPlumb' is not defined                      no-undef
+   13:9   warning  'addDisc' is assigned a value but never used  no-unused-vars
+   15:17  warning  'e' is assigned a value but never used        no-unused-vars
+   22:9   warning  'reset' is assigned a value but never used    no-unused-vars
+   35:51  warning  'ui' is defined but never used                no-unused-vars
+   37:21  warning  'jsPlumb' is not defined                      no-undef
+   42:25  warning  'jsPlumb' is not defined                      no-undef
+   50:21  warning  'id' is assigned a value but never used       no-unused-vars
+   90:20  warning  'instance_black' is not defined               no-undef
+  110:16  warning  'jsPlumb' is not defined                      no-undef
+  117:2   warning  'instance_black' is not defined               no-undef
+  117:19  warning  'jsPlumb' is not defined                      no-undef
+  140:13  warning  'e1' is assigned a value but never used       no-unused-vars
+  141:13  warning  'e2' is assigned a value but never used       no-unused-vars
+  142:4   warning  'e3' is assigned a value but never used       no-unused-vars
+  143:13  warning  'e4' is assigned a value but never used       no-unused-vars
+  144:4   warning  'e5' is assigned a value but never used       no-unused-vars
+  145:4   warning  'e6' is assigned a value but never used       no-unused-vars
+  146:13  warning  'e7' is assigned a value but never used       no-unused-vars
+  147:4   warning  'e8' is assigned a value but never used       no-unused-vars
+  148:4   warning  'e9' is assigned a value but never used       no-unused-vars
+  151:11  warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  163:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  164:46  warning  'originalEvent' is defined but never used     no-unused-vars
+  167:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  170:2   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  174:2   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  184:1   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  249:2   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  300:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  313:13  warning  'count' is assigned a value but never used    no-unused-vars
+  418:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  424:1   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  426:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  432:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+  437:3   warning  Mixed spaces and tabs                         no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-simulation-control-systems-iitkgp/exp-simulation-control-systems-iitkgp/experiment/simulation/js/jsPlumb.js
+     68:9   warning  'root' is assigned a value but never used                                  no-unused-vars
+    130:18  warning  'i' is already defined                                                     no-redeclare
+    184:18  warning  'i' is already defined                                                     no-redeclare
+    242:22  warning  'j' is already defined                                                     no-redeclare
+    264:56  warning  't' is defined but never used                                              no-unused-vars
+    279:26  warning  'j' is already defined                                                     no-redeclare
+    582:9   warning  'exports' is not defined                                                   no-undef
+    616:1   warning  Unnecessary semicolon                                                      no-extra-semi
+    626:9   warning  'exports' is not defined                                                   no-undef
+    661:9   warning  '_normal' is assigned a value but never used                               no-unused-vars
+    672:9   warning  '_lineLength' is assigned a value but never used                           no-unused-vars
+    706:9   warning  '_theta' is assigned a value but never used                                no-unused-vars
+    725:9   warning  '_intersects' is assigned a value but never used                           no-unused-vars
+    747:9   warning  '_encloses' is assigned a value but never used                             no-unused-vars
+    764:9   warning  '_pointOnLine' is assigned a value but never used                          no-unused-vars
+    781:9   warning  '_perpendicularLineTo' is assigned a value but never used                  no-unused-vars
+    789:1   warning  Unnecessary semicolon                                                      no-extra-semi
+    846:28  warning  'view' is defined but never used                                           no-unused-vars
+    846:34  warning  'target' is defined but never used                                         no-unused-vars
+    846:42  warning  'pageX' is defined but never used                                          no-unused-vars
+    846:49  warning  'pageY' is defined but never used                                          no-unused-vars
+    846:56  warning  'screenX' is defined but never used                                        no-unused-vars
+    846:65  warning  'screenY' is defined but never used                                        no-unused-vars
+    846:74  warning  'clientX' is defined but never used                                        no-unused-vars
+    846:83  warning  'clientY' is defined but never used                                        no-unused-vars
+   1040:58  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1082:39  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1132:9   warning  'touchstart' is assigned a value but never used                            no-unused-vars
+   1132:36  warning  'touchend' is assigned a value but never used                              no-unused-vars
+   1132:59  warning  'touchmove' is assigned a value but never used                             no-unused-vars
+   1137:54  warning  Unnecessary escape character: \.                                           no-useless-escape
+   1223:73  warning  Invalid typeof comparison value                                            valid-typeof
+   1286:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1288:51  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1310:29  warning  'el' is defined but never used                                             no-unused-vars
+   1310:33  warning  'event' is defined but never used                                          no-unused-vars
+   1310:40  warning  'children' is defined but never used                                       no-unused-vars
+   1310:50  warning  'fn' is defined but never used                                             no-unused-vars
+   1457:9   warning  'exports' is not defined                                                   no-undef
+   1490:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   1604:54  warning  Unnecessary escape character: \.                                           no-useless-escape
+   1728:42  warning  'scope' is defined but never used                                          no-unused-vars
+   1736:13  warning  'scroll' is assigned a value but never used                                no-unused-vars
+   1886:13  warning  '_addFilter' is assigned a value but never used                            no-unused-vars
+   1887:13  warning  '_removeFilter' is assigned a value but never used                         no-unused-vars
+   2102:31  warning  Empty block statement                                                      no-empty
+   2291:42  warning  'scope' is defined but never used                                          no-unused-vars
+   2311:56  warning  'drag' is defined but never used                                           no-unused-vars
+   2399:13  warning  '_getMatchingDroppables' is assigned a value but never used                no-unused-vars
+   2443:18  warning  'i' is already defined                                                     no-redeclare
+   2765:40  warning  'spec' is defined but never used                                           no-unused-vars
+   2788:38  warning  'spec' is defined but never used                                           no-unused-vars
+   2873:9   warning  'exports' is not defined                                                   no-undef
+   2885:42  warning  'exports' is not defined                                                   no-undef
+   2934:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3030:26  warning  Unnecessary escape character: \.                                           no-useless-escape
+   3031:40  warning  Unnecessary escape character: \[                                           no-useless-escape
+   3241:36  warning  '_protoFn' is defined but never used                                       no-unused-vars
+   3249:45  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3249:83  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3262:41  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3262:79  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3325:42  warning  Empty block statement                                                      no-empty
+   3407:23  warning  Empty block statement                                                      no-empty
+   3576:2   warning  Unnecessary semicolon                                                      no-extra-semi
+   3631:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   3634:44  warning  'ep' is defined but never used                                             no-unused-vars
+   3634:48  warning  'conn' is defined but never used                                           no-unused-vars
+   3762:38  warning  'e' is defined but never used                                              no-unused-vars
+   3866:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   3898:9   warning  'eventFilters' is assigned a value but never used                          no-unused-vars
+   3917:9   warning  '_each' is assigned a value but never used                                 no-unused-vars
+   4912:13  warning  '_setDraggable' is assigned a value but never used                         no-unused-vars
+   5136:56  warning  'args' is defined but never used                                           no-unused-vars
+   5184:60  warning  'cEl' is assigned a value but never used                                   no-unused-vars
+   5811:13  warning  '_unmanage' is assigned a value but never used                             no-unused-vars
+   5907:68  warning  'jsPlumbInstance' is assigned a value but never used                       no-unused-vars
+   6477:39  warning  'scope' is defined but never used                                          no-unused-vars
+   7164:9   warning  'exports' is not defined                                                   no-undef
+   7179:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   7297:36  warning  'ignoreAttachedElements' is defined but never used                         no-unused-vars
+   7489:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   7734:41  warning  'doNotRepaint' is defined but never used                                   no-unused-vars
+   7739:50  warning  'doNotRepaint' is defined but never used                                   no-unused-vars
+   7804:53  warning  'fireEvent' is defined but never used                                      no-unused-vars
+   7804:64  warning  'originalEvent' is defined but never used                                  no-unused-vars
+   7918:52  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   7964:39  warning  'startParams' is defined but never used                                    no-unused-vars
+   8541:17  warning  'elId' is assigned a value but never used                                  no-unused-vars
+   8778:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   9297:52  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   9322:52  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   9334:21  warning  'jsPlumb' is not defined                                                   no-undef
+   9434:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  10142:27  warning  'Biltong' is not defined                                                   no-undef
+  10494:23  warning  'jsPlumbUtil' is not defined                                               no-undef
+  10727:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  10757:53  warning  'x' is defined but never used                                              no-unused-vars
+  10757:56  warning  'y' is defined but never used                                              no-unused-vars
+  10784:46  warning  'x1' is defined but never used                                             no-unused-vars
+  10784:50  warning  'y1' is defined but never used                                             no-unused-vars
+  10784:54  warning  'x2' is defined but never used                                             no-unused-vars
+  10784:58  warning  'y2' is defined but never used                                             no-unused-vars
+  10817:17  warning  '_super' is assigned a value but never used                                no-unused-vars
+  10875:46  warning  '_' is defined but never used                                              no-unused-vars
+  11077:17  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11309:17  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11636:13  warning  'dumpSegmentsToConsole' is assigned a value but never used                 no-unused-vars
+  11692:48  warning  'anchorPoint' is defined but never used                                    no-unused-vars
+  11692:61  warning  'orientation' is defined but never used                                    no-unused-vars
+  11692:74  warning  'endpointStyle' is defined but never used                                  no-unused-vars
+  11692:89  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11725:13  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11731:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11752:13  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11757:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11768:40  warning  'params' is defined but never used                                         no-unused-vars
+  11846:48  warning  'orientation' is defined but never used                                    no-unused-vars
+  11846:61  warning  'endpointStyle' is defined but never used                                  no-unused-vars
+  11846:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11872:40  warning  'd' is defined but never used                                              no-unused-vars
+  11872:43  warning  'style' is defined but never used                                          no-unused-vars
+  11872:50  warning  'anchor' is defined but never used                                         no-unused-vars
+  11915:13  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11918:48  warning  'orientation' is defined but never used                                    no-unused-vars
+  11918:61  warning  'endpointStyle' is defined but never used                                  no-unused-vars
+  11918:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11934:32  warning  'style' is defined but never used                                          no-unused-vars
+  11934:39  warning  'anchor' is defined but never used                                         no-unused-vars
+  11967:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11996:27  warning  'instance' is defined but never used                                       no-unused-vars
+  11996:37  warning  'component' is defined but never used                                      no-unused-vars
+  12065:43  warning  'component' is defined but never used                                      no-unused-vars
+  12229:17  warning  'jsPlumb' is not defined                                                   no-undef
+  12336:37  warning  'component' is defined but never used                                      no-unused-vars
+  12346:29  warning  'containerExtents' is defined but never used                               no-unused-vars
+  12374:37  warning  'params' is defined but never used                                         no-unused-vars
+  12387:42  warning  'currentConnectionPaintStyle' is defined but never used                    no-unused-vars
+  12431:13  warning  'labelWidth' is assigned a value but never used                            no-unused-vars
+  12431:32  warning  'labelHeight' is assigned a value but never used                           no-unused-vars
+  12431:52  warning  'labelText' is assigned a value but never used                             no-unused-vars
+  12431:70  warning  'labelPadding' is assigned a value but never used                          no-unused-vars
+  12521:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  12924:35  warning  'conn' is defined but never used                                           no-unused-vars
+  12924:41  warning  'endpointIndex' is defined but never used                                  no-unused-vars
+  12928:37  warning  'conn' is defined but never used                                           no-unused-vars
+  12928:43  warning  'endpointIndex' is defined but never used                                  no-unused-vars
+  12941:56  warning  'jsPlumb' is not defined                                                   no-undef
+  12977:38  warning  '_el' is defined but never used                                            no-unused-vars
+  12977:43  warning  'targetGroup' is defined but never used                                    no-unused-vars
+  13029:29  warning  'jsPlumbUtil' is not defined                                               no-undef
+  13385:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  13401:41  warning  'lastOrientation' is assigned a value but never used                       no-unused-vars
+  13405:13  warning  'loopbackRadius' is assigned a value but never used                        no-unused-vars
+  13406:13  warning  'isLoopbackCurrently' is assigned a value but never used                   no-unused-vars
+  13750:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  13759:13  warning  'curviness' is assigned a value but never used                             no-unused-vars
+  13761:13  warning  'proximityLimit' is assigned a value but never used                        no-unused-vars
+  13764:13  warning  'isLoopbackCurrently' is assigned a value but never used                   no-unused-vars
+  13903:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  13998:13  warning  'clockwise' is assigned a value but never used                             no-unused-vars
+  14098:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  14105:30  warning  'params' is defined but never used                                         no-unused-vars
+  14109:46  warning  '_' is defined but never used                                              no-unused-vars
+  14130:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  14535:35  warning  'style' is defined but never used                                          no-unused-vars
+  14558:35  warning  'style' is defined but never used                                          no-unused-vars
+  14594:13  warning  'self' is assigned a value but never used                                  no-unused-vars
+  14755:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  14950:39  warning  'jsPlumb' is not defined                                                   no-undef
+  14979:29  warning  'jsPlumb' is not defined                                                   no-undef
+  14986:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  14987:39  warning  'jsPlumb' is not defined                                                   no-undef
+  15054:40  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  15145:22  warning  'jsPlumb' is not defined                                                   no-undef
+  15150:24  warning  'jsPlumb' is not defined                                                   no-undef
+  15276:26  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  15289:13  warning  'jsPlumb' is not defined                                                   no-undef
+  15294:18  warning  'jsPlumb' is not defined                                                   no-undef
+  15303:13  warning  'jsPlumb' is not defined                                                   no-undef
+  15308:17  warning  'jsPlumb' is not defined                                                   no-undef
+  15309:17  warning  'jsPlumb' is not defined                                                   no-undef
+  15311:17  warning  'jsPlumb' is not defined                                                   no-undef
+  15315:13  warning  'jsPlumb' is not defined                                                   no-undef
+  15321:17  warning  'jsPlumb' is not defined                                                   no-undef
+  15359:18  warning  'jsPlumb' is not defined                                                   no-undef
+  15407:22  warning  'jsPlumb' is not defined                                                   no-undef
+  15512:20  warning  'jsPlumb' is not defined                                                   no-undef
+  15526:13  warning  'jsPlumb' is not defined                                                   no-undef
+  15538:18  warning  'jsPlumb' is not defined                                                   no-undef
+  15541:25  warning  'jsPlumb' is not defined                                                   no-undef
+  15543:35  warning  'jsPlumb' is not defined                                                   no-undef
+  15544:30  warning  'jsPlumb' is not defined                                                   no-undef
+  15545:45  warning  'jsPlumb' is not defined                                                   no-undef
+  15546:45  warning  'jsPlumb' is not defined                                                   no-undef
+  15547:46  warning  'jsPlumb' is not defined                                                   no-undef
+  15663:36  warning  'el' is defined but never used                                             no-unused-vars
+  15663:40  warning  'options' is defined but never used                                        no-unused-vars
+  15666:36  warning  'el' is defined but never used                                             no-unused-vars
+  15666:40  warning  'options' is defined but never used                                        no-unused-vars
+  15682:45  warning  'zoom' is defined but never used                                           no-unused-vars
+  15722:33  warning  'spec' is defined but never used                                           no-unused-vars
+  15731:31  warning  'spec' is defined but never used                                           no-unused-vars
+  15740:38  warning  'posseId' is defined but never used                                        no-unused-vars
+  15799:23  warning  'el' is defined but never used                                             no-unused-vars
+  15799:27  warning  'event' is defined but never used                                          no-unused-vars
+  15799:34  warning  'callback' is defined but never used                                       no-unused-vars
+  15808:24  warning  'el' is defined but never used                                             no-unused-vars
+  15808:28  warning  'event' is defined but never used                                          no-unused-vars
+  15808:35  warning  'callback' is defined but never used                                       no-unused-vars
+
+✖ 692 problems (0 errors, 692 warnings)
+  0 errors and 18 warnings potentially fixable with the `--fix` option.
+

@@ -1,0 +1,628 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'IITKGP',
+        'phase': 'Testing',
+        'expName': 'SIMULATION OF CONTROL SYSTEMS',
+        'expShortName': 'simulation-control-systems'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="simulation-control-systems">
+    	<meta name="developer-institute" content="IITKGP">
+    	<meta name="learning-unit" content="SIMULATION OF CONTROL SYSTEMS">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    <link rel="stylesheet" href="./assets/katex_assets/katex.min.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+    
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center justify-content-end">
+            <bug-report id="bug-report" title="[BUG REPORT] SIMULATION OF CONTROL SYSTEMS" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITKGP&quot;,&quot;expname&quot;:&quot;SIMULATION OF CONTROL SYSTEMS&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" button_style="border: none; color: #fff; background-color: #288ec8; text-align: center; font-size: 1.05rem; border-radius: 1em;padding: 0.6em 1.2em; margin: 0 10px" position="override" custom_button_class="v-button"></bug-report>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+          <div class="row py-4 px-4 breadcrumbs">
+          	<div class="title is-4 tools">Tools</div>
+          	<span class="mx-2">
+          		<i aria-hidden="true" class="fa fa-angle-right"></i>
+          	</span>
+          	<a href="performance-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Performance Tool</button>
+          	</a>
+          	<a href="validator-report.html" class="my-2 mx-3" target="_blank">
+          		<button class="v-button">Validation Tool</button>
+          	</a>
+          </div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="contributors.html" class="p-2 ">
+                                      Contributors
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="contributors.html" class="p-2 ">
+                        Contributors
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="simulation-of-control-systems">Simulation of Control Systems</h2>
+          <!--&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/iitkgp.png" width="3%" />-->
+          
+            </div>
+              <h1 id="theory">Theory</h1>
+          <p> In this experiment, the behaviour of some control systems will be analysed and simulation of their responses will be observed with the help of four problem statements.</p>
+          <p><b>Problem 1:</b></p>
+          <p>Observe the system response of a unity feedback system (Figure-1) and its rise time, settling time and percentage over shoot for different values of ζ( damping ratio ).</p>
+          <div align="center">                
+          <img alt="" src="./images/fig1.png" class="img-fluid">
+          </div>
+          
+          <p><b>Unity feedback system:</b></p>
+          <p>If the output or some part of the output is returned to the input side and utilized as part of the system input, then it is known as feedback. Feedback plays an important role in order to improve the performance of the control systems.
+          Negative feedback reduces the error between the reference input R(s) and system output. The above figure ( Figure 1 ) shows the block diagram of the negative feedback control system.
+          Since H( s ) = 1 hence it is a unity feedback system.</p>
+          <p>Transfer function of negative feedback control system is,</p>
+          <p>$$T = \frac{G}{1 + GH}$$</p>
+          <p>Where,</p>
+          <p>T is the transfer function or overall gain of negative feedback control system.</p>
+          <p>G is the open loop gain, which is function of frequency.</p>
+          <p>H is the gain of feedback path, which is function of frequency.<br></p>
+          <p><b> Second order system:</b></p>
+          <p>The open loop transfer function of the second order unity feedback system is given by,</p>
+          <p>$$G(s) =  \frac{\omega_{n}^2}{s ( s + 2 \zeta \omega_n )}$$</p>
+          <p>The closed loop transfer function of the second order unity feedback system is given by,</p>
+          <p>$$\frac{Y(s)}{R(s)} = \frac{G(s)}{1 + G(s)} = \frac{\omega_{n}^2}{s^2 + 2 \zeta \omega_n s + \omega_{n}^2}$$</p>
+          <p>Where,</p>
+          <p>R(s) = Laplace transform of the input signal r(t),</p>
+          <p>Y(s) = Laplace transform of the output signal y(t),</p>
+          <p>ζ = Damping ratio,</p>
+          <p>ω<sub>n</sub> = Natrural frequency of oscillations.</p>
+          <p>The characteristic equation of the second order system is given by equating the denominator of the closed loop transfer function to zero.</p>
+          <p>$$( s^2 + 2 \zeta \omega_n s + \omega_{n}^2 ) = 0$$</p>
+          <p>The expression for the response of the second order system can be written as,</p>
+          <p>$$Y(s) = \frac{ \omega_{n}^2 }{ s^2 + 2 \zeta \omega_n s + \omega_{n}^2 } R(s) \  ----(1)$$</p>
+          <p>When ζ = 0, the system is undamped.</p>
+          <p>When ζ = 1, the system is critically damped.</p>
+          <p>When 0 &lt; ζ &lt; 1, the system is under damped.</p>
+          <p><b style="color:blue">Unit Step Response of Second Order System</b></p>
+          <p>Apply unit step signal at the input of the second order system,</p>
+          <p>r(t) = u(t)</p>
+          <p>Taking Laplace transform on the both sides</p>
+          <p>$$R(s) = \frac{1}{s}$$</p>
+          <p><b>Case 1 : when ζ = 0  i.e.  system is undamped</b></p>
+          <p>The equation 1 becomes,</p>
+          <p>$$Y(s) = \frac{\omega_{n}^2}{s^2 + \omega_{n}^2} R(s)$$</p>
+          <p>$$Y(s) = \frac{\omega_{n}^2}{s ( s^2 + \omega_{n}^2 )} $$</p>
+          <p>Taking the inverse Laplace transform on both the sides, we have,</p>
+          <p>$$Y(t) = ( 1 - cos ( \omega_n t )) \ u(t) \ ----(2)$$</p>
+          <p>The equation (2), shows that the unit step response of an undamped system is a continuous time signal of constant amplitude and frequency.</p>
+          <p><b>Case 2 : when ζ = 1  i.e.  system is critically damped</b></p>
+          <p>The equation 1 becomes,</p>
+          <p>$$Y(s) = \frac{\omega_{n}^2}{s^2 + 2 \omega_n s + \omega_{n}^2} R(s) = \frac{\omega_{n}^2}{( s + \omega_{n} )^2} R(s)$$</p>
+          <p>$$Y(s) = \frac{\omega_{n}^2}{ s (s + \omega_{n} )^2 } $$</p>
+          <p>After doing partial fraction and taking the inverse Laplace transform on both the sides, we have,</p>
+          <p>$$Y(t) = ( 1 - e^{- \omega_n t} -  \omega_n t e^{- \omega_n t} ) \ u(t) \  ----(3)$$</p>
+          <p>When the system is critically damped then, the equation (3) shows, that the unit step response of the second order system would try to reach the steady state step input.</p>
+          <p><b>Case 3 : when 0 &lt; ζ &lt; 1  i.e.  system is under damped</b></p>
+          <p>The equation 1 becomes,</p>
+          <p>$$Y(s) = \frac{\omega_{n}^2}{(( s + \zeta \omega_{n} )^2 + \omega_{n}^2 ( 1 - \zeta^2 ))} R(s)$$</p>
+          <p>$$Y(s) = \frac{\omega_{n}^2}{s (( s + \zeta \omega_{n} )^2 + \omega_{n}^2 ( 1 - \zeta^2 ))} $$</p>
+          <p>After doing partial fraction and taking the inverse Laplace transform on both the sides, we have,</p>
+          <p>$$Y(t) = ( 1 - \frac{e^{- \zeta \omega_n t}}{\sqrt(1 - \zeta^2)} sin ( \omega_n \sqrt {( 1 - \zeta^2 )} \ t + cos^{-1}\zeta)) \ u(t) \ ----(4)$$</p>
+          <p>The equation (4) shows, when the system is under damped then, the unit step response of the system is having damped oscillations i.e. response of decreasing amplitude.</p>
+          <p><b style="color:blue">Unit Impulse Response of Second Order System</b></p>
+          <p>Apply unit impulse signal at the input of the second order system,</p>
+          <p>r(t) = δ(t)</p>
+          <p>Taking Laplace transform on the both sides</p>
+          <p>$$R(s) = 1$$</p>
+          <p>The expression for the response of the second order system for impulse input can be written as,</p>
+          <p>$$Y(s) = \frac{ \omega_{n}^2 }{ s^2 + 2 \zeta \omega_n s + \omega_{n}^2 } \ ---(5)$$</p>
+          <p>After doing calculations using partial fractions ( if needed ) and taking inverse laplace on both the sides, we get,</p>
+          <p><b>Case 1 : when ζ = 0  i.e.  system is undamped</b></p>
+          <p>$$Y(t) = \omega_n  sin ( \omega_n t)  \ for \ t  \ \geq \ 0 \ ----(6)$$</p>
+          <p><b>Case 2 : when ζ = 1  i.e.  system is critically damped</b></p>
+          <p>$$Y(t) = \omega_{n}^2 t e^{- \omega_n t} \ for \ t \ \geq \ 0 \ ----(7)$$</p>
+          <p><b>Case 3 : when 0 &lt; ζ &lt; 1  i.e.  system is under damped</b></p>
+          <p>$$Y(t) = \frac{ \omega_n e^{- \zeta \omega_n t}}{\sqrt{(1 - \zeta^2)}} sin ( \omega_n \sqrt {( 1 - \zeta^2 )} \ t ) \ for \ t \ \geq \ 0 \ ----(8)$$</p>
+          <p><b>Problem 2:</b></p>
+          <p>Plot the root loci for the unity feedback system given in fig.1. Where,
+          $$G( s ) = k G_1( s ) = \frac{k}{s ( s + 1 )( s + 2 )}$$
+          Assume that the amplifier gain is varied from 0 to 50. Indicate the value of the gain k for which the root locus crosses the imaginary axis. Plot the output response for k = 0.4, 2,
+          6 and 12.</p>
+          <p>The characteristic equation of the system ( considered in problem-2 ) is 
+          $$1 + k G_1(s) H(s) = 0$$</p>
+          <p>The root locus is the path of the roots of characteristic equation traced out in s-plane as gain k is changed from 0 to ∞ and it is symmetrical about the real axis.</p>
+          <p><b>Construction of Root Locus:</b></p>
+          <p><b>Branch</b></p>
+          <p>The root locus branches start at the open loop poles and end at open loop zeros. So, the number of root locus branches N is equal to the number of finite open loop poles P or the number of finite open loop zeros Z, whichever is greater.</p>
+          <p>Mathematically, the number of root locus branches N can be written as</p>
+          <p>$$N = P \ if \ P\geq Z$$
+          $$N = Z \ if \ Z\gt P$$</p>
+          <p>If the angle of the open loop transfer function at a point is an odd multiple of 180°, then that point is on the root locus. If odd number of the open loop poles and zeros exist to
+          the left side of a point on the real axis, then that point is on the root locus branch.</p>
+          <p><b>Centroid (α):</b></p>
+          <p>$$\alpha = \frac{\sum{Real \ part \ of \ finite \ open \ loop \ poles} - \sum{Real \ part \ of \ finite \ open \ loop \ zeros}}{P - Z}$$</p>
+          <p><b>Angle of asymptotes (θ):</b></p>
+          <p>$$\theta = \frac{(2q + 1)180\deg}{P - Z}$$</p>
+          <p>where q = 0, 1, 2,...(P-Z)-1</p>
+          <p><b>Break-away and Break-in points:</b></p>
+          <p>If there exists a real axis root locus branch between two open loop poles, then there will be a break-away point in between these two open loop poles.
+          If there exists a real axis root locus branch between two open loop zeros, then there will be a break-in point in between these two open loop zeros.</p>
+          <p>Note − Break-away and break-in points exist only on the real axis root locus branches.</p>
+          <p>Steps to find break-away and break-in points.</p>
+          <ol>
+          <li><p>Write K in terms of s from the characteristic equation 1 + G(s)H(s)= 0.</p>
+          </li>
+          <li><p>Differentiate K with respect to s and make it equal to zero. Substitute these values of s in the above equation (found from step 1).</p>
+          </li>
+          <li><p>The values of s for which the K value is positive are the break points.</p>
+          </li>
+          </ol>
+          <p><b>Problem 3:</b>
+          Check the stability of the unity feedback system given in fig.1. Where,</p>
+          <p>$$G ( s ) = \frac{2}{s ( s + 1 )( s + 2 )} \ and \ H ( s ) = 1$$</p>
+          <p>by drawing the Bode and Nyquist diagrams and indicate gain margin, phase margin, gain crossover frequency, phase crossover frequency.</p>
+          <p>Nyquist plots are used to draw the complete frequency response of the open loop transfer function.</p>
+          <p>If P = Number of  open loop poles in the the right half of the s-plane and Z =  Number of  closed loop poles in the the right half of the s-plane then </p>
+          <p>the number of encirclements N can be written as,</p>
+          <p>$$N = P - Z$$</p>
+          <p>The open loop control system is stable if there is no open loop pole in the the right half of the s-plane.
+          $$P = 0 ; N = -Z$$</p>
+          <p>The closed loop control system is stable if there is no closed loop pole in the right half of the s-plane.
+          $$Z = 0 ; N = P$$</p>
+          <p><b>General steps for drawing Nyquist plots:</b></p>
+          <p>i) Locate the poles and zeros of open loop transfer function G(s)H(s) in ‘s’ plane.</p>
+          <p>ii)    Draw the polar plot by varying ω from zero to infinity. If pole or zero present at s = 0, then varying ω from 0+ to infinity for drawing polar plot.</p>
+          <p>iii) Draw the mirror image of above polar plot for values of ω ranging from −∞ to zero (0− if any pole or zero present at s = 0).</p>
+          <p>iv)    The infinite radius half circle will start at the point where the mirror image of the polar plot ends. And this infinite radius half circle will end at the point where the polar plot starts.</p>
+          <p>v)    After drawing the Nyquist plot, we can find the stability of the closed loop control system using the Nyquist stability criterion.
+          If the critical point (-1+j0) lies outside the encirclement, then the closed loop control system is absolutely stable. </p>
+          <p><b>Stability Analysis using Nyquist Plots:</b></p>
+          <p>From the Nyquist plots, we can identify whether the control system is stable, marginally stable or unstable based on the values of these parameters.</p>
+          <p>Gain cross over frequency ( ω<sub>gc</sub> ) and phase cross over frequency ( ω<sub>pc</sub> )<br>
+          Gain margin (GM) and phase margin (PM)</p>
+          <p><b>Phase Cross over Frequency ( ω<sub>pc</sub> ):</b></p>
+          <p>The frequency at which the Nyquist plot intersects the negative real axis ( phase angle is 180° ) is known as the phase cross over frequency. It is denoted by ( ω<sub>pc</sub> ).</p>
+          <p><b>Gain Cross over Frequency ( ω<sub>gc</sub> ):</b></p>
+          <p>The frequency at which the Nyquist plot is having the magnitude of one is known as the gain cross over frequency. It is denoted by ( ω<sub>gc</sub> ).</p>
+          <p>The stability of the control system based on the relation between phase cross over frequency and gain cross over frequency is listed below.</p>
+          <p>i) If the phase cross over frequency ( ω<sub>pc</sub> ) is greater than the gain cross over frequency ( ω<sub>gc</sub> ), then the control system is stable.</p>
+          <p>ii) If the phase cross over frequency ( ω<sub>pc</sub> ) is equal to the gain cross over frequency ( ω<sub>gc</sub> ), then the control system is marginally stable.</p>
+          <p>iii) If phase cross over frequency ( ω<sub>pc</sub> ) is less than gain cross over frequency ( ω<sub>gc</sub> ), then the control system is unstable.</p>
+          <p><br><b>Gain Margin</b></p>
+          <p>The gain margin (GM) is equal to the reciprocal of the magnitude of the Nyquist plot at the phase cross over frequency.</p>
+          <p>$$GM = \frac{1}{M_{pc}}$$
+          Where, M<sub>pc</sub> is the magnitude in normal scale at the phase cross over frequency.</p>
+          <p><b>Phase Margin</b></p>
+          <p>The phase margin (PM) is equal to the sum of 180° and the phase angle at the gain cross over frequency.</p>
+          <p>$$PM = 180\deg + \phi_{gc}$$
+          Where, φ<sub>gc</sub> is the phase angle at the gain cross over frequency.</p>
+          <p>The stability of the control system based on the relation between the gain margin and the phase margin is listed below.</p>
+          <p>i) If the gain margin (GM) is greater than one and the phase margin (PM) is positive, then the control system is stable.</p>
+          <p>ii) If the gain margin (GM) is equal to one and the phase margin (PM) is zero degrees, then the control system is marginally stable.</p>
+          <p>iii) If the gain margin (GM) is less than one and / or the phase margin (PM) is negative, then the control system is unstable.</p>
+          <p><b>Bode Plot</b></p>
+          <p>The Bode plot or the Bode diagram consists of two plots :-</p>
+          <ol>
+          <li><p>Magnitude plot</p>
+          </li>
+          <li><p>Phase plot</p>
+          </li>
+          </ol>
+          <p>In both the plots, x-axis represents angular frequency (logarithmic scale). Whereas, yaxis represents the magnitude (linear scale) of open loop transfer function in the magnitude plot and the phase angle (linear scale) of the open loop transfer function in the phase plot.</p>
+          <p>The magnitude of the open loop transfer function in dB is -</p>
+          <p>$$M = 20 \ log \ |G ( j \omega ) H ( j \omega )|$$</p>
+          <p>The phase angle of the open loop transfer function in degrees is -</p>
+          <p>$$\phi = ∠ G ( j \omega ) H ( j \omega )$$</p>
+          <p>Note − The base of logarithm is 10.</p>
+          <p><b>Problem 4:</b></p>
+          <p>Obtain the system response of a Permanent Magnet DC Motor ( given in below fig.)</p>
+          <div align="center">                
+          <img alt="" class="img-fluid" src="./images/pr4.png">
+          </div>
+          
+          <p><b>D.C. Motor Model </b></p>
+          <p>Let us assume a general schematic diagram of a d.c. motor, shown in below figure. Assume the following notations are used</p>
+          <div align="center">                
+          <img alt="" class="img-fluid" src="./images/dc.png">
+          </div>
+          
+          <p>e<sub>a</sub> : Armature voltage (volts)</p>
+          <p>i<sub>a</sub> : Armature current (amp.)</p>
+          <p>R<sub>a</sub> : Armature resistance (ohms)</p>
+          <p>L<sub>a</sub> : Armature inductance (henry)</p>
+          <p>e<sub>b</sub> : Back emf (volts)</p>
+          <p>i<sub>f</sub> : Field current (amp.)</p>
+          <p>T<sub>M</sub> : Motor torque (newton-m)</p>
+          <p>T<sub>L</sub> : Load torque (newton-m)</p>
+          <p>ω : Angular velocity (rad/sec)</p>
+          <p>J : Moment of inertia of the rotor including external loading if any (newton-m/rad/sec<sup>2</sup>)</p>
+          <p>B : Viscous friction coefficient including external loading if any (newton-m/rad/sec)</p>
+          <p>K<sub>T</sub> : Torque constant</p>
+          <p>K<sub>b</sub> : Back emf constant</p>
+          <p>Upper case notations E<sub>a</sub>, I<sub>a</sub>, E<sub>b</sub>, I<sub>f</sub>
+          are used for steady state values of the respective
+          variables e<sub>a</sub>, i<sub>a</sub>, e<sub>b</sub> and i<sub>f</sub>                </p>
+          <p>In the present setup a permanent magnet d.c. motor is used, the field winding is thus absent and the air gap flux is constant. 
+          The input drive may therefore be applied to the armature only, i.e. only armature controlled operation is possible.
+          The mathematical equations in this operating mode are, </p>
+          <p>$$T_M = K_T I_a$$</p>
+          <p>$$e_b = K_b \omega$$</p>
+          <p>Armature circuit model</p>
+          <p>$$L_a\frac{di_a}{dt} + R_a i_a + e_b = e_a$$</p>
+          <p>Mechanical model</p>
+          <p>$$J\frac{d\omega}{dt} + B\omega + T_L = T_M $$</p>
+          <p>Taking Laplace Transform and rearranging the terms,</p>
+          <p>$$\frac{\omega(s)}{E_a(s)} = \frac{K_T}{(sL_a + R_a)(sJ + B) + K_T K_b}$$</p>
+          <p>Assuming the inductance of the armature circuit to be very small, the motor transfer function may be written as, </p>
+          <p>$$G_M(s) = \frac{\omega(s)}{E_a(s)} = \frac{K_T/R_a}{Js + B + \frac{K_T K_b}{R_a}} = \frac{K_M}{s\tau_m + 1}   ----(1)$$</p>
+          <p>Motor Gain Constant(K<sub>M</sub>),</p>
+          <p>$$K_M = \frac{K_T}{R_a B + K_T K_b}$$</p>
+          <p>Motor Time Constant</p>
+          <p>$$\tau_m = \frac{R_a J}{R_a B + K_T K_b}$$</p>
+          <p>The armature controlled motor therefore has a first order type-0 transfer function and the two constant K<sub>M</sub> and τ<sub>m</sub>
+          depend upon motor parameters.</p>
+          <script id="MathJax-script" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>                                
+          
+          </div>
+          <div class="bug-report-mobile">
+              <bug-report id="bug-report" title="[BUG REPORT] SIMULATION OF CONTROL SYSTEMS" page-type="text" context-info="{&quot;organisation&quot;:&quot;Virtual Labs&quot;,&quot;developer_institute&quot;:&quot;IITKGP&quot;,&quot;expname&quot;:&quot;SIMULATION OF CONTROL SYSTEMS&quot;,&quot;labname&quot;:&quot;Virtual Lab&quot;,&quot;phase&quot;:&quot;Testing&quot;}" checkbox-json="{&quot;text&quot;:[&quot;Insufficient Content&quot;],&quot;video&quot;:[&quot;Insufficient Content&quot;],&quot;assesment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;assessment&quot;:[&quot;Incorrect Options&quot;,&quot;Incorrect Answer&quot;,&quot;Incorrect Question&quot;],&quot;simulation&quot;:[&quot;Simulation Not Working&quot;,&quot;Incorrect Results/Observations&quot;,&quot;Insufficient/Incorrect Instructions&quot;],&quot;DEFAULT&quot;:[&quot;Page Not Loading&quot;,&quot;Content Not Visible&quot;,&quot;Incorrect Content&quot;]}" position="override" button_style="
+                          position: fixed; 
+                          bottom: 20px;
+                          right: 20px;
+                          z-index: 1;
+                          font-size: 0;
+                          padding: 25px;
+                          border-radius: 50%;
+                          border: none;
+                          background-color: #0fc0ff;
+                          background-image: url(data:image/png;base64,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);
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          background-size: 30px;
+                          filter: invert(1);">
+              </bug-report>
+          </div>        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+    <script src="./assets/js/toggleSidebar.js"></script>
+    <script src="./assets/js/event-handler.js"></script>
+
+  
+
+<script type="module" src="https://virtual-labs.github.io/svc-bug-report/client/src/bug-report.js"></script></body></html>
