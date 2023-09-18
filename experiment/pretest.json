@@ -2,37 +2,122 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Mark the wrong option. Which of the following cause and effect behaviour in speed control is correct when field resistance is increased.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "  Decrease in flux ",
+        "b": "Increase in armature current",
+        "c": "Increase in EMF",
+        "d": "Decrease in speed"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Small dc motors have best speed control by _________",
+      "answers": {
+        "a": "Armature voltage control",
+        "b": "Field resistance control",
+        "c": "Any of a and b",
+        "d": "None of the mentioned"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. Consider the following statements regarding speed control of dc motor.<br/><br/> 1) Field control method is used to vary the speed of the motor above the rated speed <br/> 2) Armature resistance control method is used to vary speed below or above the rated speed.<br/>which one is correct?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1 only",
+        "b": "1 and 2 both",
+        "c": " 2 only",
+        "d": "None"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The torque limit of speed for a shunt motor _________",
+      "answers": {
+        "a": "Remains constant till base speed",
+        "b": "Remains constant after base speed",
+        "c": "Varies linearly after base speed",
+        "d": "Varies inversely till base speed"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. The most economical method of electrical braking is",
+      "answers": {
+        "a": "Plugging",
+        "b": "Dynamic braking with self exitation",
+        "c": "Regenerative braking",
+        "d": "None of these"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "6. Speed control by ward-leonard method gives uniform speed variation",
+      "answers": {
+        "a": "In one direction",
+        "b": "In both direction",
+        "c": "Below normal speed",
+        "d": "Above normal speed"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },	
+	
+	
+	{
+      "question": "7. For a dc shunt motor if exitation is changed, then",
+      "answers": {
+        "a": "Torque will remain constant",
+        "b": "Torque will change but power will remain constant",
+        "c": "Torque and Power both will change",
+        "d": "All the torque,speed and power will change"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "8. What will happen if the back emf of a dc motor vanishes suddenly?",
+	  "answers": {
+        "a": "The motor will stop",
+        "b": "The motor will continue to run",
+		"c": "The armature may burn",
+        "d": "The motor will run noisy"		
+        
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "9. A 250 V dc series motor has armature and series-field resistances of 0.25 &ohm; and 0.15 &ohm; respectively. Calculate the current for developing a torque of 80 Nm at 1200 rpm.",
+      "answers": {
+        "a": "30A",
+        "b": "43.2A",
+        "c": "15A",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	
+	
+	
+	
+	{
+	 "question": "10. With the increase in temperature, the speed of series and shunt motor will",
+      "answers": {
+        "a": "Increase, decrease",
+        "b": "Decrease, increase",
+        "c": "Increase, increase",
+        "d": "Decrease, decrease,"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
