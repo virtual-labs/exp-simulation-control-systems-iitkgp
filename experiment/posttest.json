@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The steady state error for a unit step input is ________",
+      "question": "1. The steady state error for a unit step input is ________",
       "answers": {
         "a": " 1/k<sub>p</sub>",
         "b": "1/(1 - k<sub>p</sub>) ",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": " A control system yielded a steady state error of 0.20 for unit step input. A unit integrator is cascaded to this system and unit ramp input is applied to this modified system. What is the value of steady-state error for this modified system?",
+      "question": "2. A control system yielded a steady state error of 0.20 for unit step input. A unit integrator is cascaded to this system and unit ramp input is applied to this modified system. What is the value of steady-state error for this modified system?",
       "answers": {
         "a": "0.10",
         "b": "0.15",
@@ -23,9 +23,19 @@
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
-    
     {
-      "question": "Consider that the loop transfer function of a closed-loop system is <br/> <img src='images/q1.png'/><br/>Assume k =1, T<sub>d</sub> = 0 and find the gain crossover frequency",
+      "question": "3. Feedback control system is basically ______________",
+      "answers": {
+        "a": "Band pass filter",
+        "b": "Band stop filter",
+        "c": "High pass filter",
+        "d": " Low pass filter"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Consider that the loop transfer function of a closed-loop system is <br/> <img src='images/q1.png'/><br/>Assume k =1, T<sub>d</sub> = 0 and find the gain crossover frequency",
       "answers": {
         "a": "0.446 rad/s",
         "b": "0.114 rad/s",
@@ -36,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Consider that the loop transfer function of a closed-loop system is <br/> <img src='images/q2.png'/><br/> Assume k =1 and find the gain crossover frequency",
+      "question": "5. Consider that the loop transfer function of a closed-loop system is <br/> <img src='images/q2.png'/><br/> Assume k =1 and find the gain crossover frequency",
       "answers": {
         "a": "0.446 rad/s",
         "b": "1 rad/s",
@@ -48,7 +58,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "A system has poles at 0.01 Hz, 1 Hz and 80Hz, zeroes at 5Hz, 100Hz and 200Hz. The approximate phase of the system response at 20 Hz is ",
+      "question": "6. A system has poles at 0.01 Hz, 1 Hz and 80Hz, zeroes at 5Hz, 100Hz and 200Hz. The approximate phase of the system response at 20 Hz is ",
       "answers": {
         "a": "-90 &deg;",
         "b": "0 &deg;",
@@ -59,7 +69,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": " Consider the system represented by the equation given below. What would be the total phase value at &omega; = 0?<br/> 200/[s<sup>3</sup> (s + 3) (s + 6) (s + 10)].",
+      "question": "7. Consider the system represented by the equation given below. What would be the total phase value at &omega; = 0?<br/> 200/[s<sup>3</sup> (s + 3) (s + 6) (s + 10)].",
       "answers": {
         "a": "-90&deg;",
         "b": "-180&deg;",
@@ -70,7 +80,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Due to an addition of pole at origin, the polar plot gets shifted by ___ at &omega; = 0 ?",
+      "question": "8. Due to an addition of pole at origin, the polar plot gets shifted by ___ at &omega; = 0 ?",
       "answers": {
         "a": "-90&deg;",
         "b": "-180&deg;",
@@ -84,7 +94,7 @@
     
 	
 	{
-      "question": "For a closed-loop system with loop transfer function L(s) that is of minimum-phase type, the system is closed-loop stable if the plot of L(s) that coresponds to the nyquist path does not encircle the __________ point  in the L(s )- plane",
+      "question": "9. For a closed-loop system with loop transfer function L(s) that is of minimum-phase type, the system is closed-loop stable if the plot of L(s) that coresponds to the nyquist path does not encircle the __________ point  in the L(s )- plane",
       "answers": {
         "a": "( -1, jO)",
         "b": "( -2, jO)",
@@ -96,7 +106,7 @@
     },
 	
 	{
-      "question": "Consider a feedback system with gain margin of about 30. At what point does Nyquist plot crosses negative real axis?",
+      "question": "10. Consider a feedback system with gain margin of about 30. At what point does Nyquist plot crosses negative real axis?",
       "answers": {
         "a": "-3",
         "b": "-0.3",
@@ -107,6 +117,11 @@
       "correctAnswer": "b",
       "difficulty": "beginner"
     }
+	
+	
+  ]
+}
+
 	
 	
   ]

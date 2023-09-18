@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The general effect of adding a zero to the forward-path transfer function is to",
+      "question": "1. The general effect of adding a zero to the forward-path transfer function is to",
       "answers": {
         "a": "Increase the bandwidth of the closed-loop system.",
         "b": "Decrease the bandwidth of the closed-loop system.",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In a unit-step response of the closed loop system,  high bandwidth corresponds to a",
+      "question": "2. In a unit-step response of the closed loop system,  high bandwidth corresponds to a",
       "answers": {
         "a": "Faster rise time",
         "b": "Slower rise time",
@@ -24,7 +24,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Adding a pole to the forward-path transfer function makes the closed loop system",
+      "question": "3. Adding a pole to the forward-path transfer function makes the closed loop system",
       "answers": {
         "a": "Less stable while decreasing the bandwidth.",
         "b": "More stable while increasing the bandwidth.",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Bode plot of a transfer function is a very useful for the analysis and design of linear control systems in the",
+      "question": "4. Bode plot of a transfer function is a very useful for the analysis and design of linear control systems in the",
       "answers": {
         "a": "Frequency domain",
         "b": "Time domain",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "In a bode magnitude plot, which one of the following slopes would be exhibited at high frequencies by a 4th order all-pole system?",
+      "question": "5. In a bode magnitude plot, which one of the following slopes would be exhibited at high frequencies by a 4th order all-pole system?",
       "answers": {
         "a": "-80dB/decade",
         "b": "-40dB/decade",
@@ -57,7 +57,7 @@
       "difficulty": "beginner"
     },
 	{
-      "question": " OLTF contains one zero in right half of s-plane then",
+      "question": "6. OLTF contains one zero in right half of s-plane then",
       "answers": {
         "a": "Open loop system is unstable",
         "b": "Closed loop system is unstable",
@@ -70,7 +70,7 @@
 	
 	
 	{
-      "question": " A point or region in a complex function plane is said to be encircled by a closed path if it is found",
+      "question": "7. A point or region in a complex function plane is said to be encircled by a closed path if it is found",
       "answers": {
         "a": "Inside the path",
         "b": "Outside the path",
@@ -81,7 +81,7 @@
       "difficulty": "beginner"
     },
 	{
-	 "question": "A point or region is said to be enclosed by a closed path if it is encircled in the",
+	 "question": "8. A point or region is said to be enclosed by a closed path if it is encircled in the",
       "answers": {
         "a": "Counter clock wise direction",
         "b": "Clock wise direction",
@@ -93,7 +93,7 @@
     },
 	
 	{
-	 "question": "If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system in dB?",
+	 "question": "9. If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system in dB?",
       "answers": {
         "a": " 0dB",
         "b": "2.0201 dB",
@@ -104,7 +104,7 @@
       "difficulty": "beginner"
     },
 	{
-	 "question": "According to Nyquist stability criterion, where should be the position of all zeros of q(s) corresponding to s-plane?",
+	 "question": "10. According to Nyquist stability criterion, where should be the position of all zeros of q(s) corresponding to s-plane?",
       "answers": {
         "a": "On left half",
         "b": "On right half",
