@@ -391,7 +391,7 @@ Assuming the inductance of the armature circuit to be very small, the motor tran
 
 $$G_M(s) = \frac{\omega(s)}{E_a(s)} = \frac{K_T/R_a}{Js + B + \frac{K_T K_b}{R_a}} = \frac{K_M}{s\tau_m + 1}   ----(1)$$
 
-Motor Gain Constant(K<sub>M</sub>)
+Motor Gain Constant(K<sub>M</sub>),
 
 $$K_M = \frac{K_T}{R_a B + K_T K_b}$$
 
