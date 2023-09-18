@@ -2,37 +2,118 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. A 230 V d.c. shunt machine has armature circuit resistance (including brushes) of 0.5 &ohm; and field circuit resistance of 115 &ohm;. If this machine is connected to 230 V supply mains, find the ratio of speed as a generator to the speed as a motor. The line current in each case is 40 A. ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "1.1896",
+        "b": "2.52",
+        "c": "3.354",
+        "d": "None of these"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. If a resistance is added in series with the field winding of d.c. shunt motor, then its",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Both speed and torque decreases",
+        "b": "Both speed and torque increases",
+        "c": "Speed decreases, torque increases",
+        "d": "Speed increases, torque decreases"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. A 230 V, 1000 r.p.m. dc shunt motor has field resistance of 115 &ohm; and armature circuit resistance of 0.5 &ohm;. At no load, the motor runs at 1000 r.p.m. with armature current of 4 A and with full field flux. For a load requiring 80 Nm, compute armature current and speed of the motor.",
+      "answers": {
+        "a": "568.5",
+        "b": "700",
+        "c": "928.3",
+        "d": "None of these"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In dc machines the residual magnetism is present. The order of residual magnetism is ___________",
+      "answers": {
+        "a": "2 to 3 per cent",
+        "b": "10 to 15 per cent",
+        "c": "20 to 25 per cent",
+        "d": "50 to 75 per cent"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. If the applied voltage to a dc motor is 220 V, then the back emf for maximum power developped is,",
+      "answers": {
+        "a": "220",
+        "b": "110",
+		"c": "210",
+        "d": "440"
+        
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. A dc motor has 0.5 &ohm; resistance between its terminals. It runs at 730 rpm while taking 20A from 300 V supply. Assume there is no saturation, what is the speed it will run when taking only 10A from same supply",
+      "answers": {
+        "a": "365",
+        "b": "730",
+        "c": "1440",
+        "d": "1500"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. A 200 V dc generator supplies 4 kw at a terminal voltage of 200 V, the armature resistance being 0.5 &ohm;. If the machine is operated as a motor at the same terminal voltage with the same terminal current, find the ratio of the generator speed N<sub>g</sub> to the motor speed N<sub>m</sub>. ",
+      "answers": {
+        "a": "1.25",
+        "b": "1.105",
+        "c": "0.905",
+        "d": "0.833"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. A 50 kw dc shunt motor is loaded to draw rated armature current at any given speed. When driven at 1.5 times the rated speed by field control, the output power delivered by the motor is approximately ",
+      "answers": {
+        "a": "75kw",
+        "b": "100kw",
+        "c": "50kw",
+        "d": "33kw"
+        
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }, 
+    
+	{
+      "question": "9. A dc shunt motor runs at 750 rpm from 250 V supply and is taking a full-load line current of 60 amperes. Its armature and field resistance are 0.4 &ohm; and 125 &ohm; respectively. Assuming 2 V brush drop and negligible armature reaction effect, calculate the no-load speed for a no-load line current of 6 amperes",
+	  "answers": {
+        "a": "75rpm",
+        "b": "652rpm",
+        "c": "822 rpm",
+        "d": "none of the above"
+        
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "10. In which method of speed control, the dc motor acts as constant torque,variable power drive?",
+      "answers": {
+        "a": "Armature resistance control",
+        "b": "Field control",
+        "c": "Both a and b",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
