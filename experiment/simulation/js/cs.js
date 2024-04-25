@@ -32,6 +32,7 @@ document.getElementById("wgc_span").style.display = "none";
 document.getElementById("GM_span").style.display = "none";
 document.getElementById("PM_span").style.display = "none";
 document.getElementById('orange').style.display  = "none";
+document.getElementById('omp').style.display  = "none";
 }
 function problem2(){
 	
@@ -59,6 +60,7 @@ document.getElementById("wgc_span").style.display = "none";
 document.getElementById("GM_span").style.display = "none";
 document.getElementById("PM_span").style.display = "none";
 document.getElementById('orange').style.display  = "none";
+document.getElementById('omp').style.display  = "none";
 }
 function problem3(){
 	
@@ -68,6 +70,7 @@ document.getElementById("run4").style.display = "none";
 document.getElementById("run2").style.display = "none";
 document.getElementById("run3").style.display = "block";
 document.getElementById("orange").style.display = "block";
+document.getElementById('omp').style.display  = "block";
 document.getElementById('run3d').style.display = "none";
 document.getElementById("k").style.display = "none";
 document.getElementById("k2").style.display = "block";
@@ -113,6 +116,7 @@ document.getElementById("wgc_span").style.display = "none";
 document.getElementById("GM_span").style.display = "none";
 document.getElementById("PM_span").style.display = "none";
 document.getElementById('orange').style.display  = "none";
+document.getElementById('omp').style.display  = "none";
 }
 ///problem tabs inner selections
 	
@@ -240,17 +244,18 @@ document.getElementById('chartContainer').style.display  = "block";
       animationEnabled: true,
 		  animationDuration: 10000, 
 	  title:{
-      text: "Transient Response for Unit Step input (v vs. sec) "
-	  
+      text: "Transient Response for Unit Step input (volts vs. sec) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
         interlacedColor: "#FADA9E",
-        title: "Time(Sec)"
+        title: "Time (sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Volt(v)",
+            title: "Amplitude (volts)",
 			
 			//maximum:0.03,
         },
@@ -374,17 +379,18 @@ document.getElementById('chartContainer').style.display  = "block";
       animationEnabled: true,
 		  animationDuration: 10000, 
 	  title:{
-      text: "Transient Response for Unit Impulse input (v vs. sec) "
-	  
+      text: "Transient Response for Unit Impulse input (volts vs. sec) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
         interlacedColor: "#FADA9E",
-        title: "Time(Sec)"
+        title: "Time (sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Volt(v)",
+            title: "Amplitude (volts)",
 			
 			//maximum:0.03,
         },
@@ -449,8 +455,9 @@ document.getElementById('chartContainer').style.display  = "block";
 zoomEnabled: true,
 zoomType:"xy", 		
 	  title:{
-      text: "Root Locus Plot "
-	  
+      text: "Root Locus Plot ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
@@ -651,17 +658,18 @@ document.getElementById('chartContainer').style.display  = "block";
       animationEnabled: true,
 		  animationDuration: 10000, 
 	  title:{
-      text: "Output Response Plot (v vs. sec) "
-	  
+      text: "Output Response Plot (volts vs. sec) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
         interlacedColor: "#FADA9E",
-        title: "Time(Sec)"
+        title: "Time (sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Volt(v)",
+            title: "Amplitude (volts)",
 			
 			//maximum:0.03,
         },
@@ -727,17 +735,18 @@ document.getElementById('chartContainer').style.display  = "block";
       animationEnabled: true,
 		  animationDuration: 10000, 
 	  title:{
-      text: "Output Response Plot (v vs. sec) "
-	  
+      text: "Output Response Plot (volts vs. sec) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
         interlacedColor: "#FADA9E",
-        title: "Time(Sec)"
+        title: "Time (sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Volt(v)",
+            title: "Amplitude (volts)",
 			
 			//maximum:0.03,
         },
@@ -816,17 +825,18 @@ document.getElementById('chartContainer').style.display  = "block";
       animationEnabled: true,
 		  animationDuration: 10000, 
 	  title:{
-      text: "Output Response Plot (Speed vs. Time) "
-	  
+      text: "Output Response Plot (Speed vs. Time) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
         interlacedColor: "#FADA9E",
-        title: "Time(Sec)"
+        title: "Time (sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Speed(rad/s)",
+            title: "Speed (rad/s)",
 			
 			//maximum:0.03,
         },
@@ -895,7 +905,8 @@ var constant = -math.pow(num,2);
 var roots = math.polynomialRoot(constant,4,5,1);
 var w_gc = math.sqrt(roots[1]);
 var p_gc = math.add(-90,-math.multiply(math.atan(w_gc),math.divide(180,math.pi)),-math.multiply(math.atan(math.divide(w_gc,2)),math.divide(180,math.pi)));
-var PM = math.subtract(180,p_gc);
+console.log(p_gc);
+var PM = math.add(180,p_gc);
 
 document.getElementById("wpc").value = w_pc;
 document.getElementById("wgc").value = w_gc;
@@ -912,18 +923,19 @@ document.getElementById('chartContainer').style.display  = "block";
 		zoomEnabled: true,
 		zoomType:"xy",		  
 	  title:{
-      text: "Bode Plot (Gain(dB) vs. Angular frequency) "
-	  
+      text: "Bode Plot (Gain  vs. Angular frequency) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
 		 logarithmic:true,
         interlacedColor: "#FADA9E",
-        title: "Angular frequency(rad/sec)"
+        title: "Angular frequency (rad/sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Gain(dB/decade)",
+            title: "Gain (dB/decade)",
 			
 			//maximum:0.03,
         },
@@ -954,18 +966,19 @@ document.getElementById('chartContainer2').style.display  = "block";
 		zoomEnabled: true,
 		zoomType:"xy",		  
 	  title:{
-      text: "Bode Plot (Phase(degree) vs. Angular frequency) "
-	  
+      text: "Bode Plot (Phase vs. Angular frequency) ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
 		 logarithmic:true,
         interlacedColor: "#FADA9E",
-        title: "Angular frequency(rad/sec)"
+        title: "Angular frequency (rad/sec)"
       },
     axisY: [
 	      {/////output Y axis
-            title: "Phase(degree)",
+            title: "Phase (degree)",
 			
 			//maximum:0.03,
         },
@@ -1072,21 +1085,22 @@ var deno3_pc = math.add(omega_pc2,4);
 var deno_pc = math.sqrt(math.multiply(deno1_pc,deno2_pc,deno3_pc));
 var gain_wpc = math.divide(num,deno_pc);
 var GM = math.divide(1,gain_wpc);
+var GMdB = math.multiply(20,math.log10(GM));
 document.getElementById('ovspan').style.display  = "none";
 
 ///calculation of wgc and PM
 var constant = -math.pow(num,2);
 var roots = math.polynomialRoot(constant,4,5,1);
-console.log(roots);
+//console.log(roots);
 var w_gc = math.sqrt(roots[1]);
 var p_gc = math.add(-90,-math.multiply(math.atan(w_gc),math.divide(180,math.pi)),-math.multiply(math.atan(math.divide(w_gc,2)),math.divide(180,math.pi)));
-var PM = math.subtract(180,p_gc);
+var PM = math.add(180,p_gc);
 
 
 
 document.getElementById("wpc").value = w_pc;
 document.getElementById("wgc").value = w_gc;
-document.getElementById("GM").value = GM;
+document.getElementById("GM").value = GMdB;
 document.getElementById("PM").value = PM;
 
 
@@ -1100,8 +1114,9 @@ document.getElementById('chartContainer2').style.display  = "none";
 		zoomEnabled: true,
 		zoomType:"xy",		  
 	  title:{
-      text: "Nyquist Plot "
-	  
+      text: "Nyquist Plot ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
       },
 	  
 	  axisX:{
@@ -1176,6 +1191,7 @@ document.getElementById('chartContainer2').style.display  = "none";
 		showInLegend: true,
 		legendText:"Infinite magnitude half circle in clock wise direction",
 		lineDashType: "dash",
+		markerSize: 2,
         dataPoints:[
 	   { x: -xco, y:-yco },
        { x: 0, y: 80 },
