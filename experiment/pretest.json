@@ -2,11 +2,11 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. The general effect of adding a zero to the forward-path transfer function is to,",
+      "question": "1. When the Nyquist plot does not intersect the negative real axis at any finite nonzero frequency, the gain margin is ____",
       "answers": {
-        "a": "Increase the bandwidth of the closed-loop system.",
-        "b": "Decrease the bandwidth of the closed-loop system.",
-        "c": "Both of the above",
+        "a": "Infinite",
+        "b": "Zero",
+        "c": "Negative",
         "d": "None of the above"
       },
       "correctAnswer": "a",
@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. Bode plot of a transfer function is a very useful for the analysis and design of linear control systems in the",
+      "question": "4. Bode plot of a transfer function is very useful for the analysis and design of linear control systems in the",
       "answers": {
         "a": "Frequency domain",
         "b": "Time domain",
@@ -48,16 +48,16 @@
     {
       "question": "5. In a bode magnitude plot, which one of the following slopes would be exhibited at high frequencies by a 4th order all-pole system?",
       "answers": {
-        "a": "-80dB/decade",
-        "b": "-40dB/decade",
-        "c": "80dB/decade",
-        "d": "40dB/decade"
+        "a": "-80 dB/decade",
+        "b": "-40 dB/decade",
+        "c": "80 dB/decade",
+        "d": "40 dB/decade"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
 	{
-      "question": "6. OLTF contains one zero in right half of s-plane then",
+      "question": "6. Open loop transfer function contains one zero in right half of s-plane then",
       "answers": {
         "a": "Open loop system is unstable",
         "b": "Closed loop system is unstable",
@@ -70,22 +70,22 @@
 	
 	
 	{
-      "question": "7. A point or region in a complex function plane is said to be encircled by a closed path if it is found",
+      "question": "7. consider that the loop transfer function of a control system is <br/> <img src='images/q3.png'/><br/>The following results are obtained from the Nyquist plot :<br/>Gain crossover frequency = 6.22 rad/sec <br/> Phase crossover frequency = 15.88 rad/sec. Find the gain margin.",
       "answers": {
-        "a": "Inside the path",
-        "b": "Outside the path",
-        "c": "Both a and b",
+        "a": "14.82 dB",
+        "b": "3.00 dB",
+        "c": "4.18 dB",
         "d": "None of the above"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
 	{
-	 "question": "8. A point or region is said to be enclosed by a closed path if it is encircled in the",
+	 "question": "8. When the Nyquist plot of L(jw) passes through the (-1, jO) point, the gain margin is",
       "answers": {
-        "a": "Counter clock wise direction",
-        "b": "Clock wise direction",
-        "c": "Both a and b",
+        "a": "0 dB",
+        "b": "Infinite",
+        "c": "1 dB",
         "d": "None of the above"
       },
       "correctAnswer": "a",
@@ -93,25 +93,25 @@
     },
 	
 	{
-	 "question": "9. If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system in dB?",
+	 "question": "9. If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system in dB ?",
       "answers": {
-        "a": " 0dB",
+        "a": " 0 dB",
         "b": "2.0201 dB",
-        "c": "4dB",
+        "c": "4 dB",
         "d": "6.0205 dB"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
 	{
-	 "question": "10. According to Nyquist stability criterion, where should be the position of all zeros of q(s) corresponding to s-plane?",
+	 "question": "10. Which of the following statement is correct ?",
       "answers": {
-        "a": "On left half",
-        "b": "On right half",
-        "c": "At the center",
-        "d": "None of the above"
+        "a": "If the gain margin (GM) is greater than one and the phase margin (PM) is positive, then the control system is stable.",
+        "b": "If the gain margin (GM) is equal to one and the phase margin (PM) is zero degrees, then the control system is marginally stable.",
+        "c": "If the gain margin (GM) is less than one and / or the phase margin (PM) is negative, then the control system is unstable.",
+        "d": "All of the above"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
 	

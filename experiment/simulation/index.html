@@ -86,6 +86,27 @@
     top: 0;
   }
 }
+
+
+.fontCss{
+
+font-family:'Bodoni MT';
+font-style:italic;
+
+}
+.fontCss2{
+
+font-family:'Bodoni MT';
+
+}
+.fontCss3{
+
+font-family:'Bodoni MT';
+font-style:italic;
+font-size:18px;
+}
+
+
 	
   </style>
   
@@ -94,16 +115,16 @@
 </head>
 <body><!--body tag start-->
     <div class="container p-3 my-3 text-primary text-center border"><!--First Container under body tag start-->
-        <!--<div class="row"><!--First row under 1st container start--
-            <div class="col-md-3"><!--First col under 1st row start--
+        <div class="row"><!--First row under 1st container start-->
+            <div class="col-md-3"><!--First col under 1st row start-->
                 <img class="img-fluid rounded" src="./images/vlabs.png" alt="VLabs logo">
-            </div><!--First col under 1st row end--
-            <div class="col-md-6"><!--2nd col under 1st row start--
+            </div><!--First col under 1st row end-->
+            <div class="col-md-6"><!--2nd col under 1st row start-->
                 <p class="display-1"> <b> Virtual Labs <br> IIT Kharagpur </b> </p>
-            </div><!--2nd col under 1st row end--
-            <div class="col-md-3"><!--3rd col under 1st row start--
+            </div><!--2nd col under 1st row end-->
+            <div class="col-md-3"><!--3rd col under 1st row start-->
                 <img class="img-fluid rounded" src="./images/iitkgp.png" alt="IIT KGP Logo" >
-            </div><!--3rd col under 1st row end--
+            </div><!--3rd col under 1st row end-->
         </div><!--First row under 1st container end-->
     
         <hr>
@@ -119,90 +140,52 @@
             </div><!--3rd col under 2nd row end-->
         </div><!--2nd row under 1st container end-->
         <hr>
-        <!--<div class="d-flex p-1 text-primary"><!--3rd row under 1st container start--
-          <div class="p-1" > <p class="h4"><a href="../index.html"> <span class="LN"> <b> Control and Instrumentation Lab </b></span> -- </a></p></div>
-          <div class="p-1"> <p class="h4"><a href="./index.html"> <span class="ExpN"> <b> Simulation of Control Systems </b> </span> </a></p></div>
-        </div><!--3rd row under 1st container end-->
+        
     </div><!--First Container under body tag end-->
     
-    <!--<div class="container p-3 my-5 text-primary text-center border"><!--2nd Container under body tag start--
-        <div class="row"><!--First row under 2nd container start--
-
-            <ul class="nav nav-pills nav-justified">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Introduction</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../aim.html">Objective</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../prequiz.html">Pre Quiz</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../theory.html">Theory</a>
-                </li>
-				<li class="nav-item">
-                  <a class="nav-link" href="../procedure.html">Procedure</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./index.html">Simulation</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../postquiz.html">Post Quiz</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../feedback.html">Feedback</a>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../references.html">References</a>
-                  </li>
-
-              </ul>
-        </div><!--First row under 2nd container end--
-    </div><!--2nd Container under body tag end-->
 	
     <div class="container p-3 my-5 text-left border"><!--3rd Container under body tag start-->
       <div class="row"><!--First row under 3rd container start-->
         <div class="col-md-1"></div><!--First col under 3rd container start& end-->
         <div class="col-md-10"><!--2nd col under 3rd container start-->
             <p class="text-center bg-success"> <a class="nav-link" data-bs-toggle="tab"  id="instcontrol" style="background-color:#128BD9"  ><span class=" h3 text-dark"> Instructions </span></a>
-              <div id="inst" style="display:block;height:200px;overflow-y:auto;">
+              <div id="inst" style="display:block;height:200px;overflow-y:auto;text-align:justify">
 			  
 			  <ol>
-			  <b style="color:blue">Problem-1 ( Observe the response of a unity feedback system for different values of &zeta; )</b><br/>
-                      <li>At first click on "Problem 1" button and select the input signal ( Unit Step or Unit Impluse ). In the given unity feedback system, set the value of &zeta; ( damping ratio ) throuh the up-down arrows
-						in the input box in denominator of plant transfer function G ( s ).</li></br>
+			  <b>Problem-1 (Observe the response of a unity feedback system for different values of &zeta;)</b><br/>
+                      <li>First click on "Problem 1" button and select the input signal (Unit Step or Unit Impluse). In the given unity feedback system, set the value of &zeta; (damping ratio) through the up-down arrows
+						in the input box in denominator of plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span>.</li></br>
   
 					  <li>&zeta; can be varied from 0 to 1. After the value of &zeta; is set click on the 'RUN' button to observe the system response for the particular input signal and &zeta value.</li><br/>
 					 
 					 <li>Click on 'Download Plot' button to download the response plot. Click on 'Ok' button.</li></br>
 					 
-					 <li>Click on '3D-Plot' button then on either '3D Step' or '3D Impulse' ( depending on the type of input signal, chosen in step 1 )
-					 to observe the 3D response plot for that particular input signal, where x-axis represents time (sec), y-axis represents &zeta; ( damping ratio ) and z-axis 
-					 represents the system response. Click on 'Ok' button.</li></br>
+					 <li>Click on '3D-Plot' button then on either '3D Step' or '3D Impulse' (depending on the type of input signal, chosen in step 1)
+					 to observe the 3D response plot for that particular input signal, where x-axis represents time (sec), y-axis represents &zeta; (damping ratio) and z-axis 
+					 represents the system response. Hover on the plot area and click on the camera icon in the top right corner to download this 3D plot. Click on 'Ok' button.</li></br>
 
 					 <li>Change the value of &zeta; and repeat step 2-4.</li><br/>			
 						 
 		   </ol>
 		   <br/><br/>
 		    <ol>
-			  <b style="color:blue">Problem-2 ( Plot the root loci for the unity feedback system )</b><br/>
-                      <li>At first click on "Problem 2" button and select the input signal ( Unit Step or Unit Impluse ). In the given unity feedback system, set the value of K ( gain ) throuh the up-down arrows
-						in the input box in numarator of plant transfer function G ( s ).</li></br>
+			  <b>Problem-2 (Plot the root loci for the unity feedback system)</b><br/>
+                      <li>First click on "Problem 2" button and select the input signal (Unit Step or Unit Impluse). In the given unity feedback system, set the value of <span class="fontCss">K</span> (amplifier gain) through the up-down arrows
+						in the input box in numarator of plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span>.</li></br>
   
-					  <li>'K' can be varied from 1 to 50. After the value of K is set click on the 'RUN' button, then on 'Root Locus' to observe the root locus plot of the system for that particular gain. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it.
+					  <li><span class="fontCss">K</span> can be varied from 1 to 50. After the value of <span class="fontCss">K</span> is set click on the 'RUN' button, then on 'Root Locus' to observe the root locus plot of the system for that particular amplifier gain. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it.
 					  Similarly, click on the 'RUN' button, then on 'Output Response' to observe the system response for the particular input signal and K value.</li><br/>
 					 
 					 <li>The plots can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.</li></br>
 
-					 <li>Change the value of gain K and repeat step 2-3.</li><br/>			
+					 <li>Change the value of gain <span class="fontCss">K</span> and repeat step 2-3.</li><br/>			
 						 
 		   </ol>
 		   <br/><br/>
 		    <ol>
-			  <b style="color:blue">Problem-3 ( Bode and Nyquist plot for the unity feedback system )</b><br/>
-                      <li>At first click on "Problem 3" button and enter the desired range for angular frequency &omega; in the
-					  input box below the block diagram. The plant transfer function G ( s ) is given.</li></br>
+			  <b>Problem-3 (Bode and Nyquist plot for the unity feedback system)</b><br/>
+                      <li>First click on "Problem 3" button and enter the desired range for angular frequency &omega; in the
+					  input box below the block diagram. The plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span> is given.</li></br>
   
 					  <li>Click on the 'RUN' button, then on 'Bode Plot' to observe the Bode plot of the system. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it.
 					  Similarly, click on the 'RUN' button, then on 'Nyquist Plot' to observe the Nyquist plot of the system.</li><br/>
@@ -211,18 +194,18 @@
 
 					 <li>Observe the gain margin, phase margin, gain cross over frequency and phase cross over frequency.</li><br/>
 					 
-					<li>Change the value of gain k and repeat step 2-4.</li><br/>	 
+					<li>Change the value of gain <span class="fontCss">K</span> and repeat step 2-4.</li><br/>	 
 		   </ol>
 		   <br/><br/>
 		    <ol>
-			  <b style="color:blue">Problem-4 ( System response of a Permanent Magnet DC Motor )</b><br/>
-                      <li>At first click on "Problem 4" button and enter the desired value of supply voltage V. The dc motor circuit diagram is given.</li></br>
+			  <b>Problem-4 (System response of a Permanent Magnet DC Motor)</b><br/>
+                      <li>First click on "Problem 4" button and enter the desired value of supply voltage <span class="fontCss">V</span>. The dc motor circuit diagram is provided.</li></br>
   
-					  <li>Click on the 'RUN' button to observe the system response( speed(rad/s) vs. time ) as well as the motor armature current, speed, motor torque ( T<sub>M</sub> ), load torque ( T<sub>L</sub> ).</li><br/>
+					  <li>Click on the 'RUN' button to observe the system response (speed (rad/s) vs. time (sec)) as well as the motor armature current (amp.), speed (rad/s), motor torque (<span class="fontCss">T<sub>M</sub></span>) (N-m), load torque (<span class="fontCss">T<sub>L</sub></span>) (N-m).</li><br/>
 					 
-					 <li>The plots can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.</li></br>
+					 <li>The plot can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.</li></br>
 
-					 <li>Change the value of supply voltage V and repeat step 2-3.</li><br/>			
+					 <li>Change the value of supply voltage <span class="fontCss">V</span> and repeat step 2-3.</li><br/>			
 						 
 		   </ol>
 		   </div>
@@ -246,8 +229,8 @@
 			<button type="button" onclick="problem1()" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Problem 1</button>
 						
 					  <ul class="dropdown-menu">
-						<li><a class="dropdown-item" onclick="tostep()">R ( s ) = Unit Step</a></li>
-						<li><a class="dropdown-item" onclick="toimpulse()">R ( s ) = Unit Impulse</a></li>
+						<li><a class="dropdown-item" onclick="tostep()"><span class="fontCss">R</span><span class="fontCss2"> (s)</span> = Unit Step</a></li>
+						<li><a class="dropdown-item" onclick="toimpulse()"><span class="fontCss">R</span><span class="fontCss2"> (s)</span> = Unit Impulse</a></li>
 					</ul>			
 			</div>&nbsp;
 			
@@ -255,8 +238,8 @@
 			<button type="button" onclick="problem2()" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Problem 2</button>
 						
 					  <ul class="dropdown-menu">
-						<li><a class="dropdown-item" onclick="tostep()">R ( s ) = Unit Step</a></li>
-						<li><a class="dropdown-item" onclick="toimpulse()">R ( s ) = Unit Impulse</a></li>
+						<li><a class="dropdown-item" onclick="tostep()"><span class="fontCss">R</span><span class="fontCss2"> (s)</span> = Unit Step</a></li>
+						<li><a class="dropdown-item" onclick="toimpulse()"><span class="fontCss">R</span><span class="fontCss2"> (s)</span> = Unit Impulse</a></li>
 					</ul>			
 			</div>&nbsp;
 			
@@ -329,11 +312,11 @@
 					<input type="number" id="z" min="0" max="1" step="0.1" value="0" title = "&zeta;">
 					<input type="number" id="k" min="1" max="50" step="1" value="1" >
 					<input type="number" id="k2" min="1" max="100" step="1" value="2" >
-					<span id="vspan" style="display:none;">Supply voltage(volt)</span><input type="number" id="v" min="1" max="15" step="1" value="10" title = "Supply voltage">
-					<span id="sspan" style="display:none;">Speed(rad/s)</span><input type="number" id="speed" value="0" title = "Speed in rad/s" readonly=readonly>
-					<span id="aspan" style="display:none;">Armature Current(Amp)</span><input type="number" id="armamp" value="0" title = "Armature current in Amp" readonly=readonly>
-					<span id="tmspan" style="display:none;">T<sub>M</sub>(N/m)</span><input type="number" id="torque" value="0" title = "Motor Torque" readonly=readonly>
-					<span id="tlspan" style="display:none;">T<sub>L</sub>(N/m)</span><input type="number" id="load_torque" value="0" title = "Load Torque" readonly=readonly>
+					<span id="vspan" style="display:none;">Supply voltage (volts)</span>&nbsp;<input type="number" id="v" min="1" max="15" step="1" value="10" title = "Supply voltage">
+					<span id="sspan" style="display:none;">Speed (rad/s)</span>&nbsp;<input type="number" id="speed" value="0" title = "Speed in rad/s" readonly=readonly>
+					<span id="aspan" style="display:none;">Armature Current (amp.)</span>&nbsp;<input type="number" id="armamp" value="0" title = "Armature current in Amp" readonly=readonly>
+					<span id="tmspan" style="display:none;"><span class="fontCss">T<sub>M</sub></span> (N-m)</span>&nbsp;<input type="number" id="torque" value="0" title = "Motor Torque" readonly=readonly>
+					<span id="tlspan" style="display:none;"><span class="fontCss">T<sub>L</sub></span> (N-m)</span>&nbsp;<input type="number" id="load_torque" value="0" title = "Load Torque" readonly=readonly>
 		  
 				</div><!--img container div end--><br>
 				
@@ -349,25 +332,26 @@
 		
 	 
 			<div class="col-md-12">
-			<input type="number" id="orange" min="10" max="200"  step="10" style="display:none;width: 14%;" placeholder="Enter range of &omega;">
+			<span style="display:none" id="omp">Enter the range of angular frequency &omega; (rad/s)</span><br/>
+			<input type="number" id="orange" min="10" max="200"  step="10" style="display:none;width: 10%;text-align:center;position:absolute;left:45%" placeholder="Enter range of &omega;"><br/>
 				<button type="button" id="exportChart" class="btn btn-primary"  style="display:none;">Download Plot</button>&nbsp;&nbsp;
 				<button type="button" id="result" class="btn btn-danger" onclick="Refresh()"  style="display:none;">OK</button><br/>
 				<div id = "plotbucket" class="content-center" style="display:none; position: relative; border:3px solid white;height:530px;width:823px ">
 				
 					<div id="chartContainer"  style="display:none; position:absolute; height: 50%; width: 60%;z-index:1 "></div>
-					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 					<div id="chartContainer2"  style="display:none; position:absolute; height: 50%; width: 60%;z-index:1 "></div><br/>
 					
 					
 					
 				</div><br/>
 								
-				<span id="ovspan" style="display:none;color:blue">&percnt; Overshoot = <span id="oversut"></span></span>
+				<span id="ovspan" style="display:none;">&percnt; Maximum overshoot = <span id="oversut"></span></span>
 				
-				<span id="wpc_span" style="display:none;color:blue">Phase Cross over Frequency = <input type="number" id="wpc" readonly=readonly></span><br/>
-				<span id="wgc_span" style="display:none;color:blue">Gain Cross over Frequency = <input type="number" id="wgc" readonly=readonly></span><br/>
-				<span id="GM_span" style="display:none;color:blue">Gain Margin = <input type="number" id="GM" readonly=readonly></span><br/>
-				<span id="PM_span" style="display:none;color:blue">Phase Margin = <input type="number" id="PM" readonly=readonly></span><br/>
+				<span id="wpc_span" style="display:none;">Phase Cross over Frequency = <input type="number" id="wpc" readonly=readonly>&nbsp; rad/s</span><br/>
+				<span id="wgc_span" style="display:none;">Gain Cross over Frequency = <input type="number" id="wgc" readonly=readonly>&nbsp; rad/s</span><br/>
+				<span id="GM_span" style="display:none;">Gain Margin = <input type="number" id="GM" readonly=readonly>&nbsp; dB</span><br/>
+				<span id="PM_span" style="display:none;">Phase Margin = <input type="number" id="PM" readonly=readonly>&nbsp; deg</span><br/>
 				
 			</div>
 			
@@ -486,15 +470,15 @@ var layout = {
     //margin: {t:100, l:100, b:100},
 	scene: {
    xaxis: {
-	title: 'x-axis(Time (sec))'
+	title: 'x-axis (Time (sec))'
 		
 	},
 	yaxis: {
-	title: 'y-axis(\u03b6 (Damping ratio))'
+	title: 'y-axis (\u03b6 (Damping ratio))'
 		
 	},
 	zaxis: {
-	title: 'z-axis(System response)'
+	title: 'z-axis (System response)'
 		
 	}
 	}

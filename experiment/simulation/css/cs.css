@@ -36,7 +36,7 @@
  #z{
 position: absolute;
     top: 36%;
-    left: 52%;
+    left: 48.5%;
     width: 8%;
     height: 9.4%;
     text-align: center;
@@ -48,7 +48,7 @@ position: absolute;
 	  display:none;
 position: absolute;
     top: 21%;
-    left: 56%;
+    left: 50.5%;
     width: 8%;
     height: 9.4%;
     text-align: center;
@@ -59,8 +59,8 @@ position: absolute;
   #k2{
 	  display:none;
 position: absolute;
-    top: 21%;
-    left: 56%;
+    top: 20%;
+    left: 50%;
     width: 8%;
     height: 9.4%;
     text-align: center;
@@ -73,7 +73,7 @@ position: absolute;
   #v{
 	display: none;
     position: absolute;
-    top: 36%;
+    top: 42%;
     left: 90%;
     width: 12%;
     height: 9.4%;
@@ -94,21 +94,21 @@ position: absolute;
     font-weight: bold;
     font-family: "times new roman";
     font-size: large;
-    color: red; 
+     
   }
   
   #armamp{
 	display: none;
     position: absolute;
-    top: -6%;
-    left: 41%;
+    top: -9%;
+    left: 52%;
     width: 16%;
     height: 9.4%;
     text-align: center;
     font-weight: bold;
     font-family: "times new roman";
     font-size: large;
-    color: red;
+    
   }
   
   #torque{
@@ -122,7 +122,7 @@ position: absolute;
     font-weight: bold;
     font-family: "times new roman";
     font-size: large;
-    color: red;
+   
   }
   
    #load_torque{
@@ -136,7 +136,7 @@ position: absolute;
     font-weight: bold;
     font-family: "times new roman";
     font-size: large;
-    color: red;
+   
   }
   
   #sspan{
@@ -146,8 +146,8 @@ position: absolute;
   }
   #aspan{
 	  position: absolute;
-    left: 7%;
-    top: -5%;	  
+    left: 18%;
+    top: -8%;	  
   }
   #tmspan{
 	  position:absolute;
@@ -161,12 +161,29 @@ position: absolute;
   }
   
   #vspan{
-	  position:absolute;
-	  left:88%;
-	  top:18%;	  
+	  position: absolute;
+    left: 77%;
+    top: 31%;
+    width: 30%;  
   }
   
-  
+  .fontCss{
+
+    font-family:'Bodoni MT';
+    font-style:italic;
+    
+    }
+    .fontCss2{
+    
+    font-family:'Bodoni MT';
+    
+    }
+    .fontCss3{
+    
+    font-family:'Bodoni MT';
+    font-style:italic;
+    font-size:18px;
+    }
   
   
   
