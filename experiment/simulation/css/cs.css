@@ -44,6 +44,39 @@ position: absolute;
     font-family: "times new roman";
     font-size: large;	  
   }
+  #mulsid1{
+/* position: absolute;
+    top: 36%;
+    left: 48.5%;
+    width: 8%;
+    height: 9.4%; */
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;	  
+  }
+  #yes_step1{
+/* position: absolute;
+    top: 36%;
+    left: 48.5%;
+    width: 8%;
+    height: 9.4%; */
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;	  
+  }
+  #no_step1{
+/* position: absolute;
+    top: 36%;
+    left: 48.5%;
+    width: 8%;
+    height: 9.4%; */
+    text-align: center;
+    font-weight: bold;
+    font-family: "times new roman";
+    font-size: large;	  
+  }
   #k{
 	  display:none;
 position: absolute;
@@ -59,7 +92,7 @@ position: absolute;
   #k2{
 	  display:none;
 position: absolute;
-    top: 20%;
+    top: 14%;
     left: 50%;
     width: 8%;
     height: 9.4%;
@@ -166,7 +199,6 @@ position: absolute;
     top: 31%;
     width: 30%;  
   }
-  
   .fontCss{
 
     font-family:'Bodoni MT';
@@ -184,6 +216,8 @@ position: absolute;
     font-style:italic;
     font-size:18px;
     }
+    
+  
   
   
   

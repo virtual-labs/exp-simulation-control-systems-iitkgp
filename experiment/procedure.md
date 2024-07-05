@@ -15,7 +15,8 @@
 1. First click on "Problem 1" button and select the input signal (Unit Step or Unit Impluse). In the given unity feedback system (Fig. 1), set the value of &zeta; (damping ratio) through the up-down arrows
 in the input box in denominator of plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span>.
 
-2. &zeta; can be varied from 0 to 1. After the value of &zeta; is set click on the 'RUN' button to observe the system response for the particular input signal and &zeta value.
+2. &zeta; can be varied from 0 to 1. After the value of &zeta; is set click on the 'RUN' button to observe the system response for the particular input signal and &zeta value. After changing the &zeta; value there will be one confirm message box for showing compared plots for different entered &zeta; values. Check the 'Yes' option
+and click on 'OK' button at the bottom of the box. Compared plots for all &zeta; values chosen will be shown (&zeta; can be varied upto five values to observe compared plots).
 
 3. Click on 'Download Plot' button to download the response plot. Click on 'Ok' button.
 
@@ -35,7 +36,7 @@ in the input box in denominator of plant transfer function <span class="fontCss"
 
 1. First click on "Problem 2" button and select the input signal (Unit Step or Unit Impluse). In the given unity feedback system (Fig. 2), set the value of <span class="fontCss">K</span> (amplifier gain) through the up-down arrows in the input box in numarator of plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span>.
 
-2. <span class="fontCss">K</span> can be varied from 1 to 50. After the value of <span class="fontCss">K</span> is set click on the 'RUN' button, then on 'Root Locus' to observe the root locus plot of the system for that particular amplifier gain. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it. Similarly, click on the 'RUN' button, then on 'Output Response' to observe the system response for the particular input signal and <span class="fontCss">K</span> value.
+2. <span class="fontCss">K</span> can be varied from 1 to 50. After the value of <span class="fontCss">K</span> is set click on the 'RUN' button, then on 'Root Locus' to observe the root locus plot of the system for that particular amplifier gain. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it. Similarly, click on the 'RUN' button, then on 'Output Response' to observe the system response for the particular input signal and <span class="fontCss">K</span> value. After changing the <span class="fontCss">K</span> value there will be one confirm message box for showing compared system response plots for different entered <span class="fontCss">K</span> values. Check the 'Yes' option and click on 'OK' button at the bottom of the box. Compared output response plots for all <span class="fontCss">K</span> values chosen will be shown (<span class="fontCss">K</span> can be varied upto five values to observe compared output response plots).
 
 3. The plots can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.
 
@@ -47,7 +48,7 @@ in the input box in denominator of plant transfer function <span class="fontCss"
 1. First click on "Problem 3" button and enter the desired range for angular frequency &omega; in the
 input box below the block diagram. The plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span> is given (Fig. 2).
 
-2. Click on the 'RUN' button, then on 'Bode Plot' to observe the Bode plot of the system. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it. Similarly, click on the 'RUN' button, then on 'Nyquist Plot' to observe the Nyquist plot of the system.
+2. Click on the 'RUN' button, then on 'Bode Plot' to observe the Bode plot of <span class="fontCss">G</span><span class="fontCss2"> (s)</span><span class="fontCss"> H</span><span class="fontCss2"> (s)</span>. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it. Similarly, click on the 'RUN' button, then on 'Nyquist Plot' to observe the Nyquist plot of <span class="fontCss">G</span><span class="fontCss2"> (s)</span><span class="fontCss"> H</span><span class="fontCss2"> (s)</span>.
 
 3. The plots can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.
 
@@ -70,7 +71,7 @@ input box below the block diagram. The plant transfer function <span class="font
 
 3. The plot can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.
 
-4. Change the value of supply voltage <span class="fontCss">V</span> and repeat step 2-3.
+4. Change the value of supply voltage <span class="fontCss">V</span> and repeat step 2-3. After changing the <span class="fontCss">V</span> value there will be one confirm message box for showing compared system response plots for different entered <span class="fontCss">V</span> values. Check the 'Yes' option and click on 'OK' button at the bottom of the box. Compared output response plots for all <span class="fontCss">V</span> values chosen will be shown (<span class="fontCss">V</span> can be varied upto five values to observe compared plots).
 
   
 <link href="./simulation/css/cs.css" rel="stylesheet">

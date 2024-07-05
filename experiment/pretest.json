@@ -7,7 +7,7 @@
         "a": "Infinite",
         "b": "Zero",
         "c": "Negative",
-        "d": "None of the above"
+        "d": "Unity"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -28,19 +28,19 @@
       "answers": {
         "a": "Less stable while decreasing the bandwidth.",
         "b": "More stable while increasing the bandwidth.",
-        "c": "less stable while increasing the bandwidth.",
+        "c": "Less stable while increasing the bandwidth.",
         "d": "More stable while decreasing the bandwidth."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "4. Bode plot of a transfer function is very useful for the analysis and design of linear control systems in the",
+      "question": "4. In Bode diagrams,frequency ratios are expressed in terms of octaves or decades. An octave is a frequency band from ____ &omega;<sub>1</sub> to _______ &omega;<sub>1</sub>, where &omega;<sub>1</sub> is any frequency value.",
       "answers": {
-        "a": "Frequency domain",
-        "b": "Time domain",
-        "c": "both in frequency and time domain",
-        "d": "None of the above"
+        "a": "1, 2",
+        "b": "1, 10",
+        "c": "2, 10",
+        "d": "1, 8"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -70,12 +70,12 @@
 	
 	
 	{
-      "question": "7. consider that the loop transfer function of a control system is <br/> <img src='images/q3.png'/><br/>The following results are obtained from the Nyquist plot :<br/>Gain crossover frequency = 6.22 rad/sec <br/> Phase crossover frequency = 15.88 rad/sec. Find the gain margin.",
+      "question": "7. consider that the loop transfer function of a control system is <br/> <img src='images/q3.png'/><br/>The following results are obtained from the Nyquist plot <br/>Gain crossover frequency = 6.22 rad/sec <br/> Phase crossover frequency = 15.88 rad/sec. Find the gain margin.",
       "answers": {
         "a": "14.82 dB",
         "b": "3.00 dB",
         "c": "4.18 dB",
-        "d": "None of the above"
+        "d": "10.21 dB"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -86,7 +86,7 @@
         "a": "0 dB",
         "b": "Infinite",
         "c": "1 dB",
-        "d": "None of the above"
+        "d": "Greater than 1 dB"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
