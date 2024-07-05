@@ -21,7 +21,8 @@
   
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script  src="./js/cs.js">   </script>
+  
+  <script  src="./js/cs_updated.js">   </script>
   
   
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -143,7 +144,7 @@ font-size:18px;
         
     </div><!--First Container under body tag end-->
     
-	
+    	
     <div class="container p-3 my-5 text-left border"><!--3rd Container under body tag start-->
       <div class="row"><!--First row under 3rd container start-->
         <div class="col-md-1"></div><!--First col under 3rd container start& end-->
@@ -156,7 +157,10 @@ font-size:18px;
                       <li>First click on "Problem 1" button and select the input signal (Unit Step or Unit Impluse). In the given unity feedback system, set the value of &zeta; (damping ratio) through the up-down arrows
 						in the input box in denominator of plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span>.</li></br>
   
-					  <li>&zeta; can be varied from 0 to 1. After the value of &zeta; is set click on the 'RUN' button to observe the system response for the particular input signal and &zeta value.</li><br/>
+					  <li>&zeta; can be varied from 0 to 1. After the value of &zeta; is set click on the 'RUN' button to observe the system response for the particular input signal and &zeta value.
+					  After changing the &zeta; value there will be one confirm message box for showing compared plots for different entered &zeta; values. Check the 'Yes' option
+					  and click on 'OK' button at the bottom of the box. Compared plots for all &zeta; values chosen will be shown 
+					  (&zeta; can be varied upto five values to observe compared plots).</li><br/>
 					 
 					 <li>Click on 'Download Plot' button to download the response plot. Click on 'Ok' button.</li></br>
 					 
@@ -174,7 +178,10 @@ font-size:18px;
 						in the input box in numarator of plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span>.</li></br>
   
 					  <li><span class="fontCss">K</span> can be varied from 1 to 50. After the value of <span class="fontCss">K</span> is set click on the 'RUN' button, then on 'Root Locus' to observe the root locus plot of the system for that particular amplifier gain. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it.
-					  Similarly, click on the 'RUN' button, then on 'Output Response' to observe the system response for the particular input signal and K value.</li><br/>
+					  Similarly, click on the 'RUN' button, then on 'Output Response' to observe the system response for the particular input signal and <span class="fontCss">K</span> value.
+					  After changing the <span class="fontCss">K</span> value there will be one confirm message box for showing compared system response plots for different entered <span class="fontCss">K</span> values. Check the 'Yes' option
+					  and click on 'OK' button at the bottom of the box. Compared output response plots for all <span class="fontCss">K</span> values chosen will be shown
+					  (<span class="fontCss">K</span> can be varied upto five values to observe compared output response plots).</li><br/>
 					 
 					 <li>The plots can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.</li></br>
 
@@ -187,8 +194,8 @@ font-size:18px;
                       <li>First click on "Problem 3" button and enter the desired range for angular frequency &omega; in the
 					  input box below the block diagram. The plant transfer function <span class="fontCss">G</span><span class="fontCss2"> (s)</span> is given.</li></br>
   
-					  <li>Click on the 'RUN' button, then on 'Bode Plot' to observe the Bode plot of the system. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it.
-					  Similarly, click on the 'RUN' button, then on 'Nyquist Plot' to observe the Nyquist plot of the system.</li><br/>
+					  <li>Click on the 'RUN' button, then on 'Bode Plot' to observe the Bode plot of <span class="fontCss">G</span><span class="fontCss2"> (s)</span><span class="fontCss"> H</span><span class="fontCss2"> (s)</span>. The plot can be zoomed by selecting an area under the plot. Click on 'Ok' button to clear it.
+					  Similarly, click on the 'RUN' button, then on 'Nyquist Plot' to observe the Nyquist plot of <span class="fontCss">G</span><span class="fontCss2"> (s)</span><span class="fontCss"> H</span><span class="fontCss2"> (s)</span>.</li><br/>
 					 
 					 <li>The plots can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.</li></br>
 
@@ -205,7 +212,9 @@ font-size:18px;
 					 
 					 <li>The plot can be downloaded by clicking on 'Download Plot' button. Click on 'Ok' button.</li></br>
 
-					 <li>Change the value of supply voltage <span class="fontCss">V</span> and repeat step 2-3.</li><br/>			
+					 <li>Change the value of supply voltage <span class="fontCss">V</span> and repeat step 2-3. After changing the <span class="fontCss">V</span> value there will be one confirm message box for showing compared system response plots for different entered <span class="fontCss">V</span> values. Check the 'Yes' option
+					  and click on 'OK' button at the bottom of the box. Compared output response plots for all <span class="fontCss">V</span> values chosen will be shown
+					  (<span class="fontCss">V</span> can be varied upto five values to observe compared plots).</li><br/>			
 						 
 		   </ol>
 		   </div>
@@ -300,7 +309,7 @@ font-size:18px;
 				</div>
 				
 				 <button type="button" id="run4" style="display:none;" class="btn btn-success" onclick="DC_Motor()" > RUN</button>
-				
+				 
 				</div>
 				
 				<div class="img-container"><!--img container div start-->
@@ -310,6 +319,8 @@ font-size:18px;
 					
 					
 					<input type="number" id="z" min="0" max="1" step="0.1" value="0" title = "&zeta;">
+					
+					
 					<input type="number" id="k" min="1" max="50" step="1" value="1" >
 					<input type="number" id="k2" min="1" max="100" step="1" value="2" >
 					<span id="vspan" style="display:none;">Supply voltage (volts)</span>&nbsp;<input type="number" id="v" min="1" max="15" step="1" value="10" title = "Supply voltage">
@@ -318,8 +329,37 @@ font-size:18px;
 					<span id="tmspan" style="display:none;"><span class="fontCss">T<sub>M</sub></span> (N-m)</span>&nbsp;<input type="number" id="torque" value="0" title = "Motor Torque" readonly=readonly>
 					<span id="tlspan" style="display:none;"><span class="fontCss">T<sub>L</sub></span> (N-m)</span>&nbsp;<input type="number" id="load_torque" value="0" title = "Load Torque" readonly=readonly>
 		  
-				</div><!--img container div end--><br>
-				
+				</div><!--img container div end--><br/><br/>
+				<div class="card" id="constp1" style="display:none;border:2px solid blue;background-color:powderblue">
+				<div class="card-body">
+				<span id="mulsid1" class="card-text">Do you want to observe compared plots </span><br/>
+					<input type="radio" id="yes_step1" class="card-text">
+					  <label class="card-text">Yes</label><br>
+					  <input type="radio" id="no_step1" class="card-text">
+					  <label class="card-text">No</label><br>
+				<button type="button" id="okstep1" style="display:block;" class="btn btn-info" onclick="problem1_mulsimulation()" > OK</button>
+				</div>
+				</div>
+				<div class="card" id="constp2" style="display:none;border:2px solid blue;background-color:powderblue">
+				<div class="card-body">
+				<span id="mulsid1" class="card-text">Do you want to observe compared plots </span><br/>
+					<input type="radio" id="yes_step2" class="card-text">
+					  <label class="card-text">Yes</label><br>
+					  <input type="radio" id="no_step2" class="card-text">
+					  <label class="card-text">No</label><br>
+				<button type="button" id="okstep2" style="display:block;" class="btn btn-info" onclick="loci_mulplot()" > OK</button>
+				</div>
+				</div>
+				<div class="card" id="constp3" style="display:none;border:2px solid blue;background-color:powderblue">
+				<div class="card-body">
+				<span id="mulsid1" class="card-text">Do you want to observe compared plots </span><br/>
+					<input type="radio" id="yes_step3" class="card-text">
+					  <label class="card-text">Yes</label><br>
+					  <input type="radio" id="no_step3" class="card-text">
+					  <label class="card-text">No</label><br>
+				<button type="button" id="okstep3" style="display:block;" class="btn btn-info" onclick="DC_group()" > OK</button>
+				</div>
+				</div>
 				<input type="number" id="seudo1" min="1" max="2" value="1" style="visibility:hidden" >
 			</div><!---end of 1st col under 1st row--->	
 			
@@ -336,7 +376,8 @@ font-size:18px;
 			<input type="number" id="orange" min="10" max="200"  step="10" style="display:none;width: 10%;text-align:center;position:absolute;left:45%" placeholder="Enter range of &omega;"><br/>
 				<button type="button" id="exportChart" class="btn btn-primary"  style="display:none;">Download Plot</button>&nbsp;&nbsp;
 				<button type="button" id="result" class="btn btn-danger" onclick="Refresh()"  style="display:none;">OK</button><br/>
-				<div id = "plotbucket" class="content-center" style="display:none; position: relative; border:3px solid white;height:530px;width:823px ">
+				<div class="col-md-7">
+				<div id = "plotbucket" class="content-center" style="display:none; position :relative; border:3px solid white;height:530px;width:823px ">
 				
 					<div id="chartContainer"  style="display:none; position:absolute; height: 50%; width: 60%;z-index:1 "></div>
 					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -344,15 +385,16 @@ font-size:18px;
 					
 					
 					
-				</div><br/>
-								
+				</div></div>
+				<div class="col-md-5 text-center">
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>				
 				<span id="ovspan" style="display:none;">&percnt; Maximum overshoot = <span id="oversut"></span></span>
 				
 				<span id="wpc_span" style="display:none;">Phase Cross over Frequency = <input type="number" id="wpc" readonly=readonly>&nbsp; rad/s</span><br/>
 				<span id="wgc_span" style="display:none;">Gain Cross over Frequency = <input type="number" id="wgc" readonly=readonly>&nbsp; rad/s</span><br/>
 				<span id="GM_span" style="display:none;">Gain Margin = <input type="number" id="GM" readonly=readonly>&nbsp; dB</span><br/>
 				<span id="PM_span" style="display:none;">Phase Margin = <input type="number" id="PM" readonly=readonly>&nbsp; deg</span><br/>
-				
+				</div>
 			</div>
 			
 			

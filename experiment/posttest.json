@@ -69,7 +69,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "7. Consider the system represented by the expression given below. What would be the total phase value at &omega; = 0?<br/> 200/[s<sup>3</sup> (s + 3) (s + 6) (s + 10)].",
+      "question": "7. Consider the system represented by the expression given below.<br/> <img src='images/q4.png'/><br/> What would be the total phase value at &omega; = 0?",
       "answers": {
         "a": "-90&deg;",
         "b": "-180&deg;",
