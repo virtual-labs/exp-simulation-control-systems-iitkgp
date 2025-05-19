@@ -169,12 +169,12 @@ yop[t] = math.subtract(1,math.cos(math.multiply(wn,t)));
 dataOPPoints.push({x:(t), y:(yop[t])});
 	
 }	
-ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
-ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
+//ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
+//ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
 ///yts  = math.subtract(1,math.cos(math.multiply(wn,ts)));///cause ifinity
 
-trpoint.push({x:(tr), y:(ytr)});
-tppoint.push({x:(tp), y:(ytp)});
+//trpoint.push({x:(tr), y:(ytr)});
+//tppoint.push({x:(tp), y:(ytp)});
 ///tspoint.push({x:(ts), y:(yts)});	
 }
 	
@@ -385,12 +385,12 @@ yop[t] = math.subtract(1,math.cos(math.multiply(wn,t)));
 dataOPPoints.push({x:(t), y:(yop[t])});
 
 }	
-ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
-ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
+//ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
+//ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
 ///yts  = math.subtract(1,math.cos(math.multiply(wn,ts)));///cause ifinity
 
-trpoint.push({x:(tr), y:(ytr)});
-tppoint.push({x:(tp), y:(ytp)});
+//trpoint.push({x:(tr), y:(ytr)});
+//tppoint.push({x:(tp), y:(ytp)});
 ///tspoint.push({x:(ts), y:(yts)});	
 }
 	
