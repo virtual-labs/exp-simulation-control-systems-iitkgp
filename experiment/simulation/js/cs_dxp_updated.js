@@ -12,21 +12,21 @@ document.getElementById("run1").style.display = "block";
 document.getElementById("runPlots").style.display = "block";
 document.getElementById("z").style.display = "block";
 document.getElementById("run2").style.display = "none";
-document.getElementById("run4").style.display = "none";
+//document.getElementById("run4").style.display = "none";
 document.getElementById("run3").style.display = "none";
 document.getElementById("k").style.display = "none";
 document.getElementById("k2").style.display = "none";
-document.getElementById("v").style.display = "none";
+/* document.getElementById("v").style.display = "none";
 document.getElementById("speed").style.display = "none";
 document.getElementById("armamp").style.display = "none";
 document.getElementById("torque").style.display = "none";
-document.getElementById("load_torque").style.display = "none";
+document.getElementById("load_torque").style.display = "none"; */
 document.getElementById('run3d').style.display = "block";
-document.getElementById("sspan").style.display = "none";
+/* document.getElementById("sspan").style.display = "none";
 document.getElementById("aspan").style.display = "none";
 document.getElementById("tmspan").style.display = "none";
 document.getElementById("tlspan").style.display = "none";
-document.getElementById("vspan").style.display = "none";
+document.getElementById("vspan").style.display = "none"; */
 
 document.getElementById("wpc_span").style.display = "none";
 document.getElementById("wgc_span").style.display = "none";
@@ -34,12 +34,15 @@ document.getElementById("GM_span").style.display = "none";
 document.getElementById("PM_span").style.display = "none";
 document.getElementById('orange').style.display  = "none";
 document.getElementById('omp').style.display  = "none";
+
+
 }
 function problem2(){
 	
 document.getElementById("controller").src = "images/pr2.png";
 document.getElementById("run1").style.display = "none";
-document.getElementById("run4").style.display = "none";
+document.getElementById("runPlots").style.display = "none";
+//document.getElementById("run4").style.display = "none";
 document.getElementById("run2").style.display = "block";
 document.getElementById("run3").style.display = "none";
 document.getElementById('run3d').style.display = "none";
@@ -47,28 +50,32 @@ document.getElementById("k").style.display = "block";
 document.getElementById("k2").style.display = "none";
 document.getElementById("z").style.display = "none";
 document.getElementById("constp1").style.display = "none";
-document.getElementById("v").style.display = "none";
+/* document.getElementById("v").style.display = "none";
 document.getElementById("speed").style.display = "none";
 document.getElementById("armamp").style.display = "none";
 document.getElementById("torque").style.display = "none";
-document.getElementById("load_torque").style.display = "none";
-document.getElementById("sspan").style.display = "none";
+document.getElementById("load_torque").style.display = "none"; */
+/* document.getElementById("sspan").style.display = "none";
 document.getElementById("aspan").style.display = "none";
 document.getElementById("tmspan").style.display = "none";
 document.getElementById("tlspan").style.display = "none";
-document.getElementById("vspan").style.display = "none";
+document.getElementById("vspan").style.display = "none"; */
 document.getElementById("wpc_span").style.display = "none";
 document.getElementById("wgc_span").style.display = "none";
 document.getElementById("GM_span").style.display = "none";
 document.getElementById("PM_span").style.display = "none";
 document.getElementById('orange').style.display  = "none";
 document.getElementById('omp').style.display  = "none";
+//document.getElementById("dcmParam").style.display = "none";
+
+
 }
 function problem3(){
 	
 document.getElementById("controller").src = "images/pr3.png";
 document.getElementById("run1").style.display = "none";
-document.getElementById("run4").style.display = "none";
+document.getElementById("runPlots").style.display = "none";
+//document.getElementById("run4").style.display = "none";
 document.getElementById("run2").style.display = "none";
 document.getElementById("run3").style.display = "block";
 document.getElementById("orange").style.display = "block";
@@ -78,25 +85,30 @@ document.getElementById("k").style.display = "none";
 document.getElementById("k2").style.display = "block";
 document.getElementById("z").style.display = "none";
 document.getElementById("constp1").style.display = "none";
-document.getElementById("v").style.display = "none";
+/* document.getElementById("v").style.display = "none";
 document.getElementById("speed").style.display = "none";
 document.getElementById("armamp").style.display = "none";
 document.getElementById("torque").style.display = "none";
-document.getElementById("load_torque").style.display = "none";
-document.getElementById("sspan").style.display = "none";
+document.getElementById("load_torque").style.display = "none"; */
+/* document.getElementById("sspan").style.display = "none";
 document.getElementById("aspan").style.display = "none";
 document.getElementById("tmspan").style.display = "none";
 document.getElementById("tlspan").style.display = "none";
-document.getElementById("vspan").style.display = "none";
+document.getElementById("vspan").style.display = "none"; */
 document.getElementById("wpc_span").style.display = "block";
 document.getElementById("wgc_span").style.display = "block";
 document.getElementById("GM_span").style.display = "block";
 document.getElementById("PM_span").style.display = "block";
+//document.getElementById("dcmParam").style.display = "none";
+
+
 }
 function problem4(){
 	
-document.getElementById("controller").src = "images/pr4.png";
+/* document.getElementById("controller").src = "images/pr5.png";
+document.getElementById("dcmParam").style.display = "block";
 document.getElementById("run1").style.display = "none";
+document.getElementById("runPlots").style.display = "none";
 document.getElementById("run2").style.display = "none";
 document.getElementById("run4").style.display = "block";
 document.getElementById("run3").style.display = "none";
@@ -105,22 +117,55 @@ document.getElementById("k").style.display = "none";
 document.getElementById("k2").style.display = "none";
 document.getElementById("z").style.display = "none";
 document.getElementById("constp1").style.display = "none";
-document.getElementById("v").style.display = "block";
+/* document.getElementById("v").style.display = "block";
 document.getElementById("speed").style.display = "block";
 document.getElementById("armamp").style.display = "block";
 document.getElementById("torque").style.display = "block";
-document.getElementById("load_torque").style.display = "block";
-document.getElementById("sspan").style.display = "block";
+document.getElementById("load_torque").style.display = "block"; */
+/* document.getElementById("sspan").style.display = "block";
 document.getElementById("aspan").style.display = "block";
 document.getElementById("tmspan").style.display = "block";
 document.getElementById("tlspan").style.display = "block";
-document.getElementById("vspan").style.display = "block";
+document.getElementById("vspan").style.display = "block"; *
 document.getElementById("wpc_span").style.display = "none";
 document.getElementById("wgc_span").style.display = "none";
 document.getElementById("GM_span").style.display = "none";
 document.getElementById("PM_span").style.display = "none";
 document.getElementById('orange').style.display  = "none";
-document.getElementById('omp').style.display  = "none";
+document.getElementById('omp').style.display  = "none"; */
+
+location.assign('index_dot.html');
+
+///all blue dots visible
+/* document.getElementById("bd1").style.display = "block";
+document.getElementById("bd2").style.display = "block";
+document.getElementById("bd3").style.display = "block";
+document.getElementById("bd4").style.display = "block";
+document.getElementById("bd5").style.display = "block";
+document.getElementById("bd6").style.display = "block";
+document.getElementById("bd7").style.display = "block";
+document.getElementById("bd8").style.display = "block";
+document.getElementById("bd9").style.display = "block";
+document.getElementById("bd10").style.display = "block";
+document.getElementById("bd11").style.display = "block";
+document.getElementById("bd12").style.display = "block";
+document.getElementById("bd13").style.display = "block";
+document.getElementById("bd14").style.display = "block";
+document.getElementById("bd15").style.display = "block";
+document.getElementById("bd16").style.display = "block";
+document.getElementById("bd17").style.display = "block";
+document.getElementById("bd18").style.display = "block";
+document.getElementById("bd19").style.display = "block";
+document.getElementById("bd20").style.display = "block";
+document.getElementById("bd21").style.display = "block";
+document.getElementById("bd22").style.display = "block";
+document.getElementById("bd23").style.display = "block";
+document.getElementById("bd24").style.display = "block";
+document.getElementById("bd25").style.display = "block";
+document.getElementById("bd26").style.display = "block";
+document.getElementById("bd27").style.display = "block";
+document.getElementById("bd28").style.display = "block";
+document.getElementById("bd29").style.display = "block"; */
 }
 ///problem tabs inner selections
 	
@@ -135,16 +180,92 @@ function toimpulse(){///prob1 impulse selection
 document.getElementById("seudo1").value = 2;	
 	
 } 
+///////////dxp review and sir's review edits problems customize changes
 
+function prc1(){
+	document.getElementById('prob1').style.display = "block";
+	document.getElementById('prob2').style.display = "none";
+	document.getElementById('prob3').style.display = "none";
+	//document.getElementById('prob4').style.display = "none";
+	document.getElementById('p1b').classList.remove('btn-primary');
+	document.getElementById('p1b').classList.add('btn-info');
+	document.getElementById('p2b').classList.remove('btn-info');
+	document.getElementById('p2b').classList.add('btn-primary');
+	document.getElementById('p3b').classList.remove('btn-info');
+	document.getElementById('p3b').classList.add('btn-primary');
+	document.getElementById('p4b').classList.remove('btn-info');
+	document.getElementById('p4b').classList.add('btn-primary');
+}
+function prc2(){
+	document.getElementById('prob1').style.display = "none";
+	document.getElementById('prob2').style.display = "block";
+	document.getElementById('prob3').style.display = "none";
+	//document.getElementById('prob4').style.display = "none";
+	document.getElementById('p2b').classList.remove('btn-primary');
+	document.getElementById('p2b').classList.add('btn-info');
+	document.getElementById('p1b').classList.remove('btn-info');
+	document.getElementById('p1b').classList.add('btn-primary');
+	document.getElementById('p3b').classList.remove('btn-info');
+	document.getElementById('p3b').classList.add('btn-primary');
+	document.getElementById('p4b').classList.remove('btn-info');
+	document.getElementById('p4b').classList.add('btn-primary');
+}
+function prc3(){
+	document.getElementById('prob1').style.display = "none";
+	document.getElementById('prob2').style.display = "none";
+	document.getElementById('prob3').style.display = "block";
+	//document.getElementById('prob4').style.display = "none";
+	document.getElementById('p3b').classList.remove('btn-primary');
+	document.getElementById('p3b').classList.add('btn-info');
+	document.getElementById('p2b').classList.remove('btn-info');
+	document.getElementById('p2b').classList.add('btn-primary');
+	document.getElementById('p1b').classList.remove('btn-info');
+	document.getElementById('p1b').classList.add('btn-primary');
+	document.getElementById('p4b').classList.remove('btn-info');
+	document.getElementById('p4b').classList.add('btn-primary');
+}
+/* function prc4(){
+	document.getElementById('prob1').style.display = "none";
+	document.getElementById('prob2').style.display = "none";
+	document.getElementById('prob3').style.display = "none";
+	document.getElementById('prob4').style.display = "block";
+	document.getElementById('p4b').classList.remove('btn-primary');
+	document.getElementById('p4b').classList.add('btn-info');
+	document.getElementById('p2b').classList.remove('btn-info');
+	document.getElementById('p2b').classList.add('btn-primary');
+	document.getElementById('p3b').classList.remove('btn-info');
+	document.getElementById('p3b').classList.add('btn-primary');
+	document.getElementById('p1b').classList.remove('btn-info');
+	document.getElementById('p1b').classList.add('btn-primary');
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var zetas = [];///to store all the zetas user has changed
 function step(){///problem1,step response
 var yop = [];
 var ytr = [];
-var ytp = [];
+//var ytp = [];
 var yts = [];
 
 var dataOPPoints = [];
 var trpoint =[];
-var tppoint =[];
+//var tppoint =[];
 var tspoint =[];
 	
 var zeta = document.getElementById('z').value;
@@ -153,14 +274,21 @@ var wn = 5;
 var omegad = math.multiply(wn, math.sqrt(math.subtract(1, math.pow(zeta,2))));
 var phi = math.acos(zeta);
 
-var tr = math.divide(math.subtract(math.pi,phi),omegad);
-console.log('rise time ='+tr);
+/* var tr = math.divide(math.subtract(math.pi,phi),omegad);///only applicable to underdamped
+console.log('rise time ='+tr); */
 
-var tp = math.divide(math.pi,omegad);
-console.log('peak time ='+ tp);
+if(zeta>=0.3 && zeta<=1){
+var tr = math.divide(math.add(math.multiply(2.16,zeta),0.6),wn);///applicable to 0.3<= zeta<=1
+//console.log('rise time ='+tr);
+}
+/* if(zeta<0.3 && zeta>0){
+	var tr = math.divide(math.subtract(math.pi,phi),omegad);
+} */
+/* var tp = math.divide(math.pi,omegad);
+console.log('peak time ='+ tp); */
 
-var ts = math.divide(4,math.multiply(zeta,wn));
-console.log('settling time ='+ ts);
+var ts = math.divide(4,math.multiply(zeta,wn));///applicable to 0< zeta<=1
+//console.log('settling time ='+ ts);
 
 if(zeta == 0){///undamped
 	
@@ -170,12 +298,12 @@ yop[t] = math.subtract(1,math.cos(math.multiply(wn,t)));
 dataOPPoints.push({x:(t), y:(yop[t])});
 	
 }	
-ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
-ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
+//ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
+//ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
 ///yts  = math.subtract(1,math.cos(math.multiply(wn,ts)));///cause ifinity
 
-trpoint.push({x:(tr), y:(ytr)});
-tppoint.push({x:(tp), y:(ytp)});
+//trpoint.push({x:(tr), y:(ytr)});
+//tppoint.push({x:(tp), y:(ytp)});
 ///tspoint.push({x:(ts), y:(yts)});	
 }
 	
@@ -188,17 +316,17 @@ yop[t] = math.subtract(1, math.add(epart, math.multiply(wn,t,epart)));
 dataOPPoints.push({x:(t), y:(yop[t])});
 	
 }	
-//var epart_ctr = math.pow(math.e,-math.multiply(wn,tr));
+var epart_ctr = math.pow(math.e,-math.multiply(wn,tr));
 //var epart_ctp = math.pow(math.e,-math.multiply(wn,tp));
-//var epart_cts = math.pow(math.e,-math.multiply(wn,ts));
+var epart_cts = math.pow(math.e,-math.multiply(wn,ts));
 	
-//ytr = math.subtract(1, math.add(epart_ctr, math.multiply(wn,tr,epart_ctr)));
+ytr = math.subtract(1, math.add(epart_ctr, math.multiply(wn,tr,epart_ctr)));
 //ytp = math.subtract(1, math.add(epart_ctp, math.multiply(wn,tr,epart_ctp)));
-//yts = math.subtract(1, math.add(epart_cts, math.multiply(wn,tr,epart_cts)));
+yts = math.subtract(1, math.add(epart_cts, math.multiply(wn,ts,epart_cts)));
 
-//trpoint.push({x:(tr), y:(ytr)});
+trpoint.push({x:(tr), y:(ytr)});
 //tppoint.push({x:(tp), y:(ytp)});
-//tspoint.push({x:(ts), y:(yts)});		
+tspoint.push({x:(ts), y:(yts)});		
 }	
 if(zeta > 0 && zeta < 1){///under damped
 
@@ -213,24 +341,25 @@ dataOPPoints.push({x:(t), y:(yop[t])});
 }
 
 //for(var t = 0; t <= tr; t += 0.1){	
+if(zeta>=0.3 && zeta<=1){
 var wd = math.multiply(wn, math.sqrt(math.subtract(1, math.pow(zeta,2))));	
 var theta = math.acos(zeta);
 var rootz = math.sqrt(math.subtract(1, math.pow(zeta,2)));
 	
 var epart_tr = math.pow(math.e,-math.multiply(zeta,wn,tr)); 	
-var epart_tp = math.pow(math.e,-math.multiply(zeta,wn,tp));
+//var epart_tp = math.pow(math.e,-math.multiply(zeta,wn,tp));
 var epart_ts = math.pow(math.e,-math.multiply(zeta,wn,ts));
 
 ytr = math.subtract(1, math.multiply(math.divide(epart_tr,rootz), math.sin(math.add(math.multiply(wd,tr),theta))));
-ytp = math.subtract(1, math.multiply(math.divide(epart_tp,rootz), math.sin(math.add(math.multiply(wd,tp),theta))));
+//ytp = math.subtract(1, math.multiply(math.divide(epart_tp,rootz), math.sin(math.add(math.multiply(wd,tp),theta))));
 yts = math.subtract(1, math.multiply(math.divide(epart_ts,rootz), math.sin(math.add(math.multiply(wd,ts),theta))));
 
 trpoint.push({x:(tr), y:(ytr)});
-tppoint.push({x:(tp), y:(ytp)});
+//tppoint.push({x:(tp), y:(ytp)});
 tspoint.push({x:(ts), y:(yts)});
-//}	
+}	
 }
-///NEW ADDITION OF OVER DAMPER CASE AS PER THE DXP REVIEW COMMENTS PP-168 OGATA
+/* ///NEW ADDITION OF OVER DAMPER CASE AS PER THE DXP REVIEW COMMENTS PP-168 OGATA
 if(zeta > 1 && zeta <= 10){///overdamped
 
 for(var t = 0; t<=10; t+=0.1){
@@ -243,7 +372,7 @@ var fpart1 = math.divide(wn,math.multiply(2,rootzetainv));
 
 yop[t] = math.add(1, math.multiply(fpart1,math.subtract(spart1,spart2)));	
 dataOPPoints.push({x:(t), y:(yop[t])});
-}
+} */
 ///for an overdamped system, the terms peak time and maximum overshoot do not apply AS PER OGATA PP-171. hence only rise time and settling time.
 //for(var t = 0; t <= tr; t += 0.1){	
 /* var rootzetainv = math.sqrt(math.subtract(math.pow(zeta,2),1));	
@@ -263,7 +392,7 @@ trpoint.push({x:(tr), y:(ytr)});
 //tppoint.push({x:(tp), y:(ytp)});
 tspoint.push({x:(ts), y:(yts)}); */
 //}	
-}
+//}
 
 ///system parameters
 document.getElementById('orange').style.display  = "none";
@@ -306,14 +435,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -337,13 +466,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -377,43 +506,54 @@ function mulstep(){///problem1,step response grouped plot
 incr++;
 var yop = [];
 var ytr = [];
-var ytp = [];
+//var ytp = [];
 var yts = [];
 
 var dataOPPoints = [];
 var trpoint =[];
-var tppoint =[];
+//var tppoint =[];
 var tspoint =[];
 	
 var zeta = document.getElementById('z').value;
 if(incr==1){
 	z1=zeta;
+	zetas.push(z1);
 }
 if(incr==2){
 	z2=zeta;
+	zetas.push(z2);
 }
 if(incr==3){
 	z3=zeta;
+	zetas.push(z3);
 }
 if(incr==4){
 	z4=zeta;
+	zetas.push(z4);
 }
 if(incr==5){
 	z5=zeta;
+	zetas.push(z5);
 }
 if(incr==6){
 	z6=zeta;
+	zetas.push(z6);
 }
 var wn = 5;
 
 var omegad = math.multiply(wn, math.sqrt(math.subtract(1, math.pow(zeta,2))));
 var phi = math.acos(zeta);
 
-var tr = math.divide(math.subtract(math.pi,phi),omegad);
-console.log('rise time ='+tr);
-
-var tp = math.divide(math.pi,omegad);
-console.log('peak time ='+ tp);
+if(zeta>=0.3 && zeta<=1){
+var tr = math.divide(math.add(math.multiply(2.16,zeta),0.6),wn);///applicable to 0.3<= zeta<=1
+//console.log('rise time ='+tr);
+}
+ /* if(zeta<0.3 && zeta>0){
+	var tr = math.divide(math.subtract(math.pi,phi),omegad);
+}
+ */
+/* var tp = math.divide(math.pi,omegad);
+console.log('peak time ='+ tp); */
 
 var ts = math.divide(4,math.multiply(zeta,wn));
 console.log('settling time ='+ ts);
@@ -426,12 +566,12 @@ yop[t] = math.subtract(1,math.cos(math.multiply(wn,t)));
 dataOPPoints.push({x:(t), y:(yop[t])});
 
 }	
-ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
-ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
+//ytr  = math.subtract(1,math.cos(math.multiply(wn,tr)));
+//ytp  = math.subtract(1,math.cos(math.multiply(wn,tp)));
 ///yts  = math.subtract(1,math.cos(math.multiply(wn,ts)));///cause ifinity
 
-trpoint.push({x:(tr), y:(ytr)});
-tppoint.push({x:(tp), y:(ytp)});
+//trpoint.push({x:(tr), y:(ytr)});
+//tppoint.push({x:(tp), y:(ytp)});
 ///tspoint.push({x:(ts), y:(yts)});	
 }
 	
@@ -444,17 +584,17 @@ yop[t] = math.subtract(1, math.add(epart, math.multiply(wn,t,epart)));
 dataOPPoints.push({x:(t), y:(yop[t])});
 	
 }	
-//var epart_ctr = math.pow(math.e,-math.multiply(wn,tr));
+var epart_ctr = math.pow(math.e,-math.multiply(wn,tr));
 //var epart_ctp = math.pow(math.e,-math.multiply(wn,tp));
-//var epart_cts = math.pow(math.e,-math.multiply(wn,ts));
+var epart_cts = math.pow(math.e,-math.multiply(wn,ts));
 	
-//ytr = math.subtract(1, math.add(epart_ctr, math.multiply(wn,tr,epart_ctr)));
+ytr = math.subtract(1, math.add(epart_ctr, math.multiply(wn,tr,epart_ctr)));
 //ytp = math.subtract(1, math.add(epart_ctp, math.multiply(wn,tr,epart_ctp)));
-//yts = math.subtract(1, math.add(epart_cts, math.multiply(wn,tr,epart_cts)));
+yts = math.subtract(1, math.add(epart_cts, math.multiply(wn,ts,epart_cts)));
 
-//trpoint.push({x:(tr), y:(ytr)});
+trpoint.push({x:(tr), y:(ytr)});
 //tppoint.push({x:(tp), y:(ytp)});
-//tspoint.push({x:(ts), y:(yts)});		
+tspoint.push({x:(ts), y:(yts)});		
 }	
 if(zeta > 0 && zeta < 1){///under damped
 
@@ -468,28 +608,29 @@ yop[t] = math.subtract(1, math.multiply(math.divide(epart2,rootz), math.sin(math
 dataOPPoints.push({x:(t), y:(yop[t])});
 }
 
-//for(var t = 0; t <= tr; t += 0.1){	
+//for(var t = 0; t <= tr; t += 0.1){
+if(zeta>=0.3 && zeta<=1){	
 var wd = math.multiply(wn, math.sqrt(math.subtract(1, math.pow(zeta,2))));	
 var theta = math.acos(zeta);
 var rootz = math.sqrt(math.subtract(1, math.pow(zeta,2)));
 	
 var epart_tr = math.pow(math.e,-math.multiply(zeta,wn,tr)); 	
-var epart_tp = math.pow(math.e,-math.multiply(zeta,wn,tp));
+//var epart_tp = math.pow(math.e,-math.multiply(zeta,wn,tp));
 var epart_ts = math.pow(math.e,-math.multiply(zeta,wn,ts));
 
 ytr = math.subtract(1, math.multiply(math.divide(epart_tr,rootz), math.sin(math.add(math.multiply(wd,tr),theta))));
-ytp = math.subtract(1, math.multiply(math.divide(epart_tp,rootz), math.sin(math.add(math.multiply(wd,tp),theta))));
+//ytp = math.subtract(1, math.multiply(math.divide(epart_tp,rootz), math.sin(math.add(math.multiply(wd,tp),theta))));
 yts = math.subtract(1, math.multiply(math.divide(epart_ts,rootz), math.sin(math.add(math.multiply(wd,ts),theta))));
 
 trpoint.push({x:(tr), y:(ytr)});
 
-tppoint.push({x:(tp), y:(ytp)});
+//tppoint.push({x:(tp), y:(ytp)});
 
 tspoint.push({x:(ts), y:(yts)});
-
+}
 }
 
-///NEW ADDITION OF OVER DAMPER CASE AS PER THE DXP REVIEW COMMENTS PP-168 OGATA
+/* ///NEW ADDITION OF OVER DAMPER CASE AS PER THE DXP REVIEW COMMENTS PP-168 OGATA
 if(zeta > 1 && zeta <= 10){///overdamped
 
 for(var t = 0; t<=10; t+=0.1){
@@ -502,7 +643,7 @@ var fpart1 = math.divide(wn,math.multiply(2,rootzetainv));
 
 yop[t] = math.add(1, math.multiply(fpart1,math.subtract(spart1,spart2)));	
 dataOPPoints.push({x:(t), y:(yop[t])});
-}
+} */
 ///for an overdamped system, the terms peak time and maximum overshoot do not apply AS PER OGATA PP-171. hence only rise time and settling time.
 //for(var t = 0; t <= tr; t += 0.1){	
 /* var rootzetainv = math.sqrt(math.subtract(math.pow(zeta,2),1));	
@@ -522,43 +663,43 @@ trpoint.push({x:(tr), y:(ytr)});
 //tppoint.push({x:(tp), y:(ytp)});
 tspoint.push({x:(ts), y:(yts)}); */
 //}	
-}
+//}
 
 
 
 if(incr==1){
 	data1=dataOPPoints;
-	tppoint1=tppoint;
+	//tppoint1=tppoint;
 	trpoint1=trpoint;
 	tspoint1=tspoint;
 }
 if(incr==2){
 	data2=dataOPPoints;
-	tppoint2=tppoint;
+	//tppoint2=tppoint;
 	trpoint2=trpoint;
 	tspoint2=tspoint;
 }
 if(incr==3){
 	data3=dataOPPoints;
-	tppoint3=tppoint;
+	//tppoint3=tppoint;
 	trpoint3=trpoint;
 	tspoint3=tspoint;
 }
 if(incr==4){
 	data4=dataOPPoints;
-	tppoint4=tppoint;
+	//tppoint4=tppoint;
 	trpoint4=trpoint;
 	tspoint4=tspoint;
 }
 if(incr==5){
 	data5=dataOPPoints;
-	tppoint5=tppoint;
+	//tppoint5=tppoint;
 	trpoint5=trpoint;
 	tspoint5=tspoint;
 }
 if(incr==6){
 	data6=dataOPPoints;
-	tppoint6=tppoint;
+	//tppoint6=tppoint;
 	trpoint6=trpoint;
 	tspoint6=tspoint;
 }
@@ -613,14 +754,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -646,13 +787,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint1
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint1
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -701,14 +842,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -733,14 +874,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp2 axis invisible
+		/* {///tp2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -766,13 +907,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint1
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint1
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -794,13 +935,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint2
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint2
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -849,14 +990,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -881,14 +1022,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp2 axis invisible
+		/* {///tp2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -913,14 +1054,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp3 axis invisible
+		/* {///tp3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -946,13 +1087,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint1
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint1
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -974,13 +1115,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint2
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint2
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1002,13 +1143,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint3
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint3
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1057,14 +1198,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1089,14 +1230,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp2 axis invisible
+		/* {///tp2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1121,14 +1262,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp3 axis invisible
+		/* {///tp3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1153,14 +1294,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp4 axis invisible
+		/* {///tp4 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts4 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1186,13 +1327,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint1
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint1
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1214,13 +1355,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint2
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint2
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1242,13 +1383,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint3
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint3
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1270,13 +1411,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint4
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint4
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1325,14 +1466,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1357,14 +1498,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp2 axis invisible
+		/* {///tp2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1389,14 +1530,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp3 axis invisible
+		/* {///tp3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1421,14 +1562,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp4 axis invisible
+		/* {///tp4 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts4 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1453,14 +1594,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp5 axis invisible
+		/* {///tp5 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts5 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1486,13 +1627,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint1
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint1
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1514,13 +1655,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint2
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint2
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1542,13 +1683,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint3
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint3
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1570,13 +1711,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint4
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint4
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1598,13 +1739,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint5
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint5
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1653,14 +1794,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp axis invisible
+		/* {///tp axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1685,14 +1826,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp2 axis invisible
+		/* {///tp2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts2 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1717,14 +1858,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp3 axis invisible
+		/* {///tp3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts3 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1749,14 +1890,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp4 axis invisible
+		/* {///tp4 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts4 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1781,14 +1922,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp5 axis invisible
+		/* {///tp5 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts5 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1813,14 +1954,14 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
       return " ";}
 	  
 		},
-		{///tp6 axis invisible
+		/* {///tp6 axis invisible
 			gridThickness: 0,
     tickLength: 0,
     lineThickness: 0,
     labelFormatter: function(){
       return " ";}
 	  
-		},
+		}, */
 		{///ts6 axis invisible
 			gridThickness: 0,
     tickLength: 0,
@@ -1846,13 +1987,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		legendText: "Rise Time",
         dataPoints:trpoint1
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		showInLegend: true,
 		legendText: "Peak Time",
         dataPoints:tppoint1
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1874,13 +2015,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint2
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint2
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1902,13 +2043,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint3
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint3
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1930,13 +2071,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint4
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint4
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1958,13 +2099,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint5
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint5
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -1987,13 +2128,13 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 		//legendText: "Rise Time",
         dataPoints:trpoint6
        },
-	   {        
+	   /* {        
         type: "line",
 		color:"green",
 		//showInLegend: true,
 		//legendText: "Peak Time",
         dataPoints:tppoint6
-       },
+       }, */
 	   {        
         type: "line",
 		color:"#D16404",
@@ -2014,6 +2155,215 @@ document.getElementById('chartContainer').style.height = 70+"%";///new addition 
 	}
 } 
 
+
+ function Rise_Time(){///for step basically
+	 
+	var wn = 5;
+var riseT = [];
+
+//var rcount = incr;
+
+for(var rcount=0;rcount<=incr-1;rcount++){
+	
+	var zeta = Number(zetas[rcount]);
+	var omegad = math.multiply(wn, math.sqrt(math.subtract(1, math.pow(zeta,2))));
+var phi = math.acos(zeta);
+
+/* var tr = math.divide(math.subtract(math.pi,phi),omegad);///only applicable to underdamped
+console.log('rise time ='+tr); */
+
+if(zeta>=0.3 && zeta<=1){
+var tr = math.divide(math.add(math.multiply(2.16,zeta),0.6),wn);///applicable to 0.3<= zeta<=1
+//console.log('rise time ='+tr);
+}
+/* if(zeta<0.3 && zeta>0){
+	var tr = math.divide(math.subtract(math.pi,phi),omegad);
+} */
+
+	riseT.push({x:(zeta), y:(tr)});
+}
+if(zeta<0.3){
+	alert('Rise Time Vs. Damping ratio plot can be observed for Damping ratio >= 0.4');
+	
+}
+if(zeta>=0.3 && zeta<=1){
+document.getElementById('plotbucket').style.display  = "block";
+document.getElementById('chartContainer2').style.display  = "none";  
+document.getElementById('chartContainer').style.display  = "block";
+document.getElementById('chartContainer').style.height = 70+"%";///new addition to show broader plot eccept bode
+	var chart = new CanvasJS.Chart("chartContainer",
+    {
+      //animationEnabled: true,
+		//  animationDuration: 10000, 
+	  title:{
+      text: "Rise Time Vs. Damping Ratio ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
+      },
+	  
+	  axisX:{
+        interlacedColor: "#FADA9E",
+        title: "Damping Ratio",
+		minimum:0.3,
+		maximum:1
+      },
+    axisY: [
+	      {/////output Y axis
+            title: "Rise Time (sec)",
+			
+			//maximum:0.03,
+        }
+		],
+	data: [
+      {        
+        type: "spline",
+		color:"black",
+        dataPoints:riseT	
+       }
+      ]	
+	});
+
+	chart.render();	
+	document.getElementById("result").style.display = "block";
+	document.getElementById("exportChart").style.display = "block";
+	/* document.getElementById("exportChart").addEventListener("click",function(){
+	chart.exportChart({format: "jpg"})}); */	 
+}	 
+	 
+	 
+ }
+ 
+ function Settling_Time(){
+///for step basically
+	 
+var wn = 5;
+var settT = [];
+
+for(var rcount=0;rcount<=incr-1;rcount++){
+	
+	var zeta = Number(zetas[rcount]);
+	
+if(zeta>0 && zeta<=1){
+var ts = math.divide(4,math.multiply(zeta,wn));///applicable to 0< zeta<=1
+}
+
+	settT.push({x:(zeta), y:(ts)});
+}
+if(zeta==0){
+	alert('Settling Time Vs. Damping ratio plot can be observed for Damping ratio > 0');
+	
+}
+if(zeta>0 && zeta<=1){
+document.getElementById('plotbucket').style.display  = "block";
+document.getElementById('chartContainer2').style.display  = "none";  
+document.getElementById('chartContainer').style.display  = "block";
+document.getElementById('chartContainer').style.height = 70+"%";///new addition to show broader plot eccept bode
+	var chart = new CanvasJS.Chart("chartContainer",
+    {
+      //animationEnabled: true,
+		//  animationDuration: 10000, 
+	  title:{
+      text: "Settling Time Vs. Damping Ratio ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
+      },
+	  
+	  axisX:{
+        interlacedColor: "#FADA9E",
+        title: "Damping Ratio",
+		//minimum:0.1,
+		//maximum:1
+      },
+    axisY: [
+	      {/////output Y axis
+            title: "Settling Time (sec)",
+			
+			//maximum:0.03,
+        }
+		],
+	data: [
+      {        
+        type: "spline",
+		color:"black",
+        dataPoints:settT	
+       }
+      ]	
+	});
+
+	chart.render();	
+	document.getElementById("result").style.display = "block";
+	document.getElementById("exportChart").style.display = "block";
+	/* document.getElementById("exportChart").addEventListener("click",function(){
+	chart.exportChart({format: "jpg"})}); */	 
+}	 
+ }
+ 
+ function Overshoot_Z(){
+	///for step basically
+	 
+var wn = 5;
+var ovT = [];
+
+for(var rcount=0;rcount<=incr-1;rcount++){
+	
+	var zeta = Number(zetas[rcount]);
+	
+if(zeta>=0 && zeta<1){
+var ovr = math.multiply(math.pow(math.e, -math.divide(math.multiply(zeta,math.pi), math.sqrt(math.subtract(1, math.pow(zeta,2))))),100);///applicable to 0<= zeta<1
+}
+if(zeta>=1){
+var ovr = 0;///applicable to zeta>=1
+}
+
+	ovT.push({x:(zeta), y:(ovr)});
+}
+
+if(zeta>=0 && zeta<=1){
+document.getElementById('plotbucket').style.display  = "block";
+document.getElementById('chartContainer2').style.display  = "none";  
+document.getElementById('chartContainer').style.display  = "block";
+document.getElementById('chartContainer').style.height = 70+"%";///new addition to show broader plot eccept bode
+	var chart = new CanvasJS.Chart("chartContainer",
+    {
+      //animationEnabled: true,
+		//  animationDuration: 10000, 
+	  title:{
+      text: "% Maximum overshoot Vs. Damping Ratio ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
+      },
+	  
+	  axisX:{
+        interlacedColor: "#FADA9E",
+        title: "Damping Ratio",
+		//minimum:0.1,
+		//maximum:1
+      },
+    axisY: [
+	      {/////output Y axis
+            title: "% Maximum overshoot",
+			
+			//maximum:0.03,
+        }
+		],
+	data: [
+      {        
+        type: "spline",
+		color:"black",
+        dataPoints:ovT	
+       }
+      ]	
+	});
+
+	chart.render();	
+	document.getElementById("result").style.display = "block";
+	document.getElementById("exportChart").style.display = "block";
+	/* document.getElementById("exportChart").addEventListener("click",function(){
+	chart.exportChart({format: "jpg"})}); */	 
+}	  
+ }
+ 
+ 
  
 function impulse(){///problem1,impulse response
 var yop = [];
@@ -2765,7 +3115,7 @@ var cpol2I = roots[1].im;
 var cpol3R = roots[2].re;
 var cpol3I = roots[2].im;
 }
-if(document.getElementById('k').value >= 6 && document.getElementById('k').value <50){
+//if(document.getElementById('k').value >= 6 && document.getElementById('k').value <=50){
 document.getElementById('orange').style.display  = "none";
 document.getElementById('ovspan').style.display  = "none";
 //document.getElementById('ospan').style.display  = "none";
@@ -2897,7 +3247,7 @@ zoomType:"xy",
 		showInLegend: true,
 		legendText: "Closed loop poles",
 		markerType:"cross",
-		markerSize:10,
+		markerSize:14,
         dataPoints:[
 			{ x: cpol1,  y: 0  },
 			{ x: cpol2R, y: cpol2I  },
@@ -3016,11 +3366,11 @@ zoomType:"xy",
 	document.getElementById("exportChart").style.display = "block";
 	/* document.getElementById("exportChart").addEventListener("click",function(){
 	chart.exportChart({format: "jpg"})}); */	
-}
-else {
+//}
+/* else {
 	alert('The gain K can be varied from 0.1 to 50.');
 	location.reload();
-}
+} */
 	
 } 
 function rootloci1(){///problem2
@@ -3040,15 +3390,43 @@ var im2 = -1.414;
 var gain  = document.getElementById('k').value;
 var roots = math.polynomialRoot(gain,2,3,1);
 
-var cpol1 = roots[0];
+var cpol1 = roots[0];///always real
 
-var cpol2R = roots[1].re;
+//var cpol2R = roots[1].re;
+
+var rut1 = roots[1].im;
+if (typeof rut1 == 'undefined') {
+	var cpol2R = roots[1];
+var cpol2I = 0;
+}
+else if (typeof rut1 != 'undefined') {
+	var cpol2R = roots[1].re;
 var cpol2I = roots[1].im;
+}
 
-var cpol3R = roots[2].re;
+//var cpol3R = roots[2].re;
+
+var rut2 = roots[2].im;
+if (typeof rut2 == 'undefined') {
+	var cpol3R = roots[2];
+var cpol3I = 0;
+}
+else if (typeof rut2 != 'undefined') {
+	var cpol3R = roots[2].re;
 var cpol3I = roots[2].im;
 }
-if(document.getElementById('k').value >= 0.1 && document.getElementById('k').value <6){
+//var cpol3I = roots[2].im;
+
+console.log("roots[1] =" + roots[1]);
+console.log("roots[2] =" + roots[2]);
+
+console.log("cpol2r =" +cpol2R);
+console.log("cpol2i =" +cpol2I);
+console.log("cpol3i =" +cpol3I);
+console.log("cpol3r =" +cpol3R);
+}
+
+if(document.getElementById('k').value >0 && document.getElementById('k').value <=6 && typeof rut1 != 'undefined'){
 document.getElementById('orange').style.display  = "none";
 document.getElementById('ovspan').style.display  = "none";
 //document.getElementById('ospan').style.display  = "none";
@@ -3180,7 +3558,7 @@ zoomType:"xy",
 		showInLegend: true,
 		legendText: "Closed loop poles",
 		markerType:"cross",
-		markerSize:10,
+		markerSize:14,
         dataPoints:[
 			{ x: cpol1,  y: 0  },
 			{ x: cpol2R, y: cpol2I  },
@@ -3298,17 +3676,320 @@ zoomType:"xy",
 	/* document.getElementById("exportChart").addEventListener("click",function(){
 	chart.exportChart({format: "jpg"})}); */	
 }
-else {
-	alert('The gain K can be varied from 0.1 to 50.');
-	location.reload();
+if(document.getElementById('k').value >0 && document.getElementById('k').value <=6 && typeof rut1 == 'undefined'){
+document.getElementById('orange').style.display  = "none";
+document.getElementById('ovspan').style.display  = "none";
+//document.getElementById('ospan').style.display  = "none";
+document.getElementById('plotbucket').style.display  = "block";
+document.getElementById('chartContainer2').style.display  = "none";  
+document.getElementById('chartContainer').style.display  = "block"; 
+document.getElementById('chartContainer').style.height = 70+"%";///new addition to show broader plot eccept bode	
+	var chart = new CanvasJS.Chart("chartContainer",
+    {
+      //animationEnabled: true,
+		//  animationDuration: 10000,
+zoomEnabled: true,
+zoomType:"xy", 		
+	  title:{
+      text: "Root Locus Plot ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
+      },
+	  
+	  axisX:{
+        interlacedColor: "#FADA9E",
+        title: "\u03c3",
+		minimum:-10,
+			maximum:10,
+      },
+    axisY: [
+	      {///middle axis
+            title: "j \u03c9",
+			minimum:-10,
+			maximum:10,
+			
+        },
+		{///poles
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///closed loop poles
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///break away point
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///centroid
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///cuts in jw axis
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///locus down green
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///locus up cian blue
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		},
+		{///locus red line
+			gridThickness: 0,
+    tickLength: 0,
+    lineThickness: 0,
+    labelFormatter: function(){
+      return " ";}
+	  
+		}
+		
+		],
+	data: [
+      
+	   {        
+        type: "line",
+		color:"black",
+        dataPoints:[
+		{ x: -100,  y: 0  },
+			{ x: 100, y: 0  },
+			{ x: 0, y: -100 },
+			{ x: 0,  y: 100},	
+		
+		]
+       },
+	   {        
+        type: "scatter",
+		color:"#835d2a",
+		showInLegend: true,
+		legendText: "Open loop poles",
+		markerType:"cross",
+		markerSize:10,
+        dataPoints:[
+			{ x: pol1,  y: 0  },
+			{ x: pol2, y: 0  },
+			{ x: pol3, y: 0 },
+					
+		]	
+       },
+	   {        
+        type: "scatter",
+		color:"green",
+		showInLegend: true,
+		legendText: "Closed loop poles",
+		markerType:"cross",
+		markerSize:14,
+        dataPoints:[
+			{ x: cpol1,  y: 0  },
+			{ x: cpol2R, y: cpol2I  },
+			{ x: cpol3R, y: cpol3I },
+			
+					
+		]	
+       },
+	   {        
+        type: "scatter",
+		color:"#a705f2",
+		showInLegend: true,
+		legendText: "Break-away point",
+		markerSize:8,
+        dataPoints:[
+		{ x: bkpoint,  y: 0  },
+			
+		]
+       },
+	   {        
+        type: "scatter",
+		color:"blue",
+		showInLegend: true,
+		legendText: "Centroid",
+		markerSize:8,
+        dataPoints:[
+		{ x: centroid,  y: 0  },
+			
+		]
+       },
+       {        
+        type: "scatter",
+		color:"#fe79fa",
+		markerType:"cross",
+		markerSize:10,
+		showInLegend: true,
+		legendText: "Cuts in imaginary axis",
+		//markerSize: 2,
+        dataPoints:[
+			{ x: 0,  y: im1 },
+			{ x: 0,  y: im2 },
+								
+		]	
+       },
+	   {        
+        type: "line",
+		color:"#7130f3",
+		markerSize: 0,
+		
+        dataPoints:[
+			/* { x: 0,  y: im2 },
+			{ x: bkpoint,  y: 0 },
+			{ x: 0,  y: im1 },
+			{ x: 3,  y: 10 },
+			{ x: 0,  y: im2 },
+			{ x: 3,  y: -10 } */	
+			{ x: 3,  y: -10 },
+			{ x: 0,  y: im2 },
+			//{ x: cpol2R, y: cpol2I },
+			{ x: bkpoint,  y: 0 },
+			{ x: -1,  y: 0 }
+			//{ x: 0,  y: im1 },
+			//{ x: 0,  y: im2 },
+			//{ x: 3,  y: 10 }
+
+		]	
+       },
+	   {        
+        type: "line",
+		color:"#11bbe8",
+		markerSize: 0,
+		
+        dataPoints:[
+			/* { x: 0,  y: im2 },
+			{ x: bkpoint,  y: 0 },
+			{ x: 0,  y: im1 },
+			{ x: 3,  y: 10 },
+			{ x: 0,  y: im2 },
+			{ x: 3,  y: -10 } */	
+			{ x: 3,  y: 10 },
+			{ x: 0,  y: im1 },
+			//{ x: cpol3R, y: cpol3I },
+			{ x: bkpoint,  y: 0 },
+			{ x: 0,  y: 0 }
+			//{ x: 0,  y: im1 },
+			//{ x: 0,  y: im2 },
+			//{ x: 3,  y: 10 }
+
+		]	
+       },
+	   {        
+        type: "line",
+		color:"red",
+		markerSize: 0,
+		
+        dataPoints:[
+			/* { x: 0,  y: im2 },
+			{ x: bkpoint,  y: 0 },
+			{ x: 0,  y: im1 },
+			{ x: 3,  y: 10 },
+			{ x: 0,  y: im2 },
+			{ x: 3,  y: -10 } */	
+			{ x: -2,  y: 0 },
+			{ x: -10,  y: 0 }
+			
+		]	
+       },
+	   
+      ]	
+	});
+
+	chart.render();	
+	document.getElementById("result").style.display = "block";
+	document.getElementById("exportChart").style.display = "block";
+	/* document.getElementById("exportChart").addEventListener("click",function(){
+	chart.exportChart({format: "jpg"})}); */	
 }
+else if(document.getElementById('k').value == 0) {
+	document.getElementById('plotbucket').style.display  = "block";
+  
+document.getElementById('chartContainer').style.display  = "block";
+document.getElementById('chartContainer').style.height = 70+"%";///new addition to show broader plot eccept bode	
+	var chart = new CanvasJS.Chart("chartContainer",
+    {
+      //animationEnabled: true,
+		//  animationDuration: 10000,
+zoomEnabled: true,
+zoomType:"xy", 		
+	  title:{
+      text: "Root Locus Plot ",
+	  fontFamily: "Times New Roman",
+	  fontSize: 25,
+      },
+	  
+	  axisX:{
+        interlacedColor: "#FADA9E",
+        title: "\u03c3",
+		minimum:-10,
+			maximum:10,
+      },
+    axisY: [
+	      {///middle axis
+            title: "j \u03c9",
+			minimum:-10,
+			maximum:10,
+			
+        }
+		
+		
+		],
+	data: [
+      
+	   {        
+        type: "line",
+		color:"black",
+        dataPoints:[
+		{ x: -100,  y: 0  },
+			{ x: 100, y: 0  },
+			{ x: 0, y: -100 },
+			{ x: 0,  y: 100},	
+		
+		]
+       },
+	   
+      ]	
+	});
+
+	chart.render();	
+	document.getElementById("result").style.display = "block";
+	document.getElementById("exportChart").style.display = "block";
+	/* document.getElementById("exportChart").addEventListener("click",function(){
+	chart.exportChart({format: "jpg"})}); */	
+	
+} 
 	
 } 
 function rootloci(){
-	if(document.getElementById('k').value<6){
+	if(document.getElementById('k').value<=6){
 		rootloci1();
 	}
-	else if(document.getElementById('k').value >= 6){
+	else if(document.getElementById('k').value > 6){
 		rootloci2();
 	}
 	
@@ -4399,7 +5080,7 @@ console.log('TL = '+TL);
 	
 dataOPPoints.push({x:(t), y:(omega)});	///speed in rad/s
 dataCurrent.push({x:(t), y:(ia)});	///current in amp
-dataTork.push({x:(t), y:(T)});	///Load toque N-m
+dataTork.push({x:(t), y:(TL)});	///Load toque N-m
 
 }
 
