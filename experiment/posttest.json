@@ -35,7 +35,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "4. Consider that the loop transfer function of a closed-loop system is <br/> <img src='images/q1.png'/><br/>Assume K = 1, T<sub>d</sub> = 0 and find the gain crossover frequency",
+      "question": "4. Consider that the loop transfer function (for a minimum phase system) of a closed-loop system is <br/> <img src='images/q1.png'/><br/>Assume K = 1, T<sub>d</sub> = 0 and find the gain crossover frequency",
       "answers": {
         "a": "0.446 rad/s",
         "b": "0.114 rad/s",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "5. Consider that the loop transfer function of a closed-loop system is <br/> <img src='images/q2.png'/><br/> Assume K =1 and find the gain crossover frequency",
+      "question": "5. Consider that the loop transfer function (for a minimum phase system) of a closed-loop system is <br/> <img src='images/q2.png'/><br/> Assume K =1 and find the gain crossover frequency",
       "answers": {
         "a": "0.446 rad/s",
         "b": "1 rad/s",
@@ -68,7 +68,7 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
+   {
       "question": "7. Consider the system represented by the expression given below.<br/> <img src='images/q4.png'/><br/> What would be the total phase value at &omega; = 0?",
       "answers": {
         "a": "-90&deg;",
@@ -106,7 +106,7 @@
     },
 	
 	{
-      "question": "10. Consider a feedback system with gain margin of about 30. At what point does Nyquist plot crosses negative real axis?",
+      "question": "10. Consider a feedback system (minimum phase system) with gain margin of about 30. At what point does Nyquist plot crosses negative real axis?",
       "answers": {
         "a": "-3",
         "b": "-0.3",

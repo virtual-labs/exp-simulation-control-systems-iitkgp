@@ -70,7 +70,7 @@
 	
 	
 	{
-      "question": "7. consider that the loop transfer function of a control system is <br/> <img src='images/q3.png'/><br/>The following results are obtained from the Nyquist plot <br/>Gain crossover frequency = 6.22 rad/sec <br/> Phase crossover frequency = 15.88 rad/sec. Find the gain margin.",
+      "question": "7. consider that the loop transfer function of a control system is <br/> <img src='images/q3.png'/><br/>The following results are obtained from the Nyquist plot <br/>Gain crossover frequency = 6.22 rad/sec <br/> Phase crossover frequency = 15.88 rad/sec. Find the gain margin for the minimum phase system.",
       "answers": {
         "a": "14.82 dB",
         "b": "3.00 dB",
@@ -81,7 +81,7 @@
       "difficulty": "beginner"
     },
 	{
-	 "question": "8. When the Nyquist plot of L(jw) passes through the (-1, jO) point, the gain margin is",
+	 "question": "8. When the Nyquist plot of L(jw) passes through the (-1, jO) point, the gain margin (for a minimum phase system) is",
       "answers": {
         "a": "0 dB",
         "b": "Infinite",
@@ -93,7 +93,7 @@
     },
 	
 	{
-	 "question": "9. If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system in dB ?",
+	 "question": "9. If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system (minimum phase) in dB ?",
       "answers": {
         "a": " 0 dB",
         "b": "2.0201 dB",
@@ -104,7 +104,7 @@
       "difficulty": "beginner"
     },
 	{
-	 "question": "10. Which of the following statement is correct ?",
+	 "question": "10. Which of the following statement is correct for a system where the open-loop transfer function is minimum phase?",
       "answers": {
         "a": "If the gain margin (GM) is greater than one and the phase margin (PM) is positive, then the control system is stable.",
         "b": "If the gain margin (GM) is equal to one and the phase margin (PM) is zero degrees, then the control system is marginally stable.",
