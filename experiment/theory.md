@@ -144,7 +144,7 @@ $$Y(s) = \frac{\omega_{n}^2}{s (( s + \zeta \omega_{n} )^2 + \omega_{n}^2 ( 1 - 
 
 After the partial fraction, taking the inverse laplace transform on both the sides, we have,
 
-$$y(t) = \left( 1 - \frac{e^{- \zeta \omega_n t}}{\sqrt{1 - \zeta^2}} sin ( \omega_n \sqrt { 1 - \zeta^2 } \ t + \phi)\right) \ u(t), \ where \ \phi =  cos^{(-1)}\zeta\tag{4}$$
+$$y(t) = \left( 1 - \frac{e^{- \zeta \omega_n t}}{\sqrt{1 - \zeta^2}} sin ( \omega_n \sqrt { 1 - \zeta^2 } \ t + \phi)\right) \ u(t), \ where \ \phi =  cos^{-1}(\zeta)\tag{4}$$
 
 Equation (4) shows that when the system is underdamped, its unit step response exhibits oscillations whose amplitude decreases over time. 
 In other words, the system’s output oscillates but the oscillations gradually diminish until the response settles.<br/><br/>
