@@ -417,7 +417,7 @@ Note − The base of logarithm is 10.
 
 <br/><br/>
 <b>Problem 4</b><br/>
-Obtain the system response of a permanent magnet dc motor (Fig. 4) from the simulation model (Fig. 6). Observe speed of the motor (&omega;), armature current (<span class="fontCss">i</span><sub>a</sub>) and load torque (<span class="fontCss">T</span>).
+Obtain the system response of a permanent magnet dc motor (Fig. 4) from the simulation model (Fig. 5). Observe speed of the motor (&omega;), armature current (<span class="fontCss">i</span><sub>a</sub>) and load torque (<span class="fontCss">T</span>).
 Assume <span class="fontCss">J</span> is the inertia of the motor, <span class="fontCss">b</span> is the viscous friction coefficient, <span class="fontCss">V</span> is the supply voltage and motor is running without load.				
 
 
@@ -499,7 +499,7 @@ depend upon motor parameters.<br/><br/> -->
 <b>DC motor simulation model</b><br/>
 <div align="center">				
 <img alt="" class="img-fluid" src="./images/dc3.png" ><br/>
-<b>Fig. 6. Simulation model of dc motor</b>
+<b>Fig. 5. Simulation model of dc motor</b>
 </div><br/>
 
 
