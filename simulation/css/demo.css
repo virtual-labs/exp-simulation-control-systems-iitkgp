@@ -1,0 +1,279 @@
+/* This script file is edited by
+    Piyali Chattopadhyay
+    Project Scientist-Technical,
+    Virtual Labs IIT Kharagpur.*/
+
+.demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+/** JSPLUMB ARTEFACTS **/
+.jtk-overlay {
+    z-index: 51;
+}
+
+.jtk-endpoint {
+    z-index: 50;
+    cursor: move;
+}
+
+.jtk-connector {
+    z-index: 1;
+}
+/*.jtk-demo-canvas {    
+    
+        /*margin-left: 0;
+        margin-top:10px;
+		margin:0 auto;
+        height:auto;
+    
+	
+}*/
+
+/** ELEMENTS **/
+.bigdot {
+    cursor: pointer;
+    width: 162px;
+    height: 162px;
+  /* background-image: url(bigdot.png);*/
+    z-index: 5;
+    position: absolute;
+    border-radius: 81px;
+}
+
+.bigdot-hover {
+    border: 2px solid orange;
+}
+
+.dropHover {
+    border: 1px solid orange;
+}
+
+/* css positions for all blue dots ,generating connecting wires */
+   /* #bd1{
+	   /*display:none;*
+    position: absolute;
+    left: 77.2%;
+    bottom: 7.3%;    
+	padding: 4px;
+	
+  } */
+   #bd2{
+	   /*display:none;*/
+    position: absolute;
+    left: 6.2%;
+    bottom: 71.3%;
+    padding: 4px;
+	
+  }
+  #bd3{
+	  /*display:none;*/
+   position: absolute;
+    left: 11.5%;
+    bottom: 71.4%;
+    padding: 4px;
+	
+  }
+  #bd4{
+	  /*display:none;*/
+  position: absolute;
+    left: 17.9%;
+    bottom: 70.3%;
+    padding: 4px;
+	
+  }
+  #bd5{
+	  /*display:none;*/
+    position: absolute;
+    left: 22.5%;
+    bottom: 70.3%;
+    padding: 4px;
+	
+  }
+  #bd6{
+	  /*display:none;*/
+    position: absolute;
+    left: 32.8%;
+    bottom: 70.3%;
+    padding: 4px;
+	
+  }
+   #bd7{
+	   /*display:none;*/
+    position: absolute;
+    left: 37.8%;
+    bottom: 70%;
+    padding: 4px;
+	
+  }
+   #bd8{
+	  /*display:none;*/
+    position: absolute;
+    left: 44.6%;
+    bottom: 70%;
+    padding: 4px;
+  }   
+  
+   #bd9{
+	   /*display:none;*/
+    position: absolute;
+    left: 49.5%;
+    bottom: 70%;
+    padding: 4px;
+	
+  }
+   #bd10{
+	  /*display:none;*/
+    position: absolute;
+    left: 61.3%;
+    bottom: 69.5%;
+    padding: 4px;
+	
+  }
+   #bd11{
+	   /*display:none;*/
+    position: absolute;
+    left: 64.8%;
+    bottom: 69.5%;
+    padding: 4px;
+  }
+   #bd12{
+	   /*display:none;*/
+    position: absolute;
+    left: 71.6%;
+    bottom: 69%;
+    padding: 4px;
+	
+  }
+  #bd13{
+	  /*display:none;*/
+    position: absolute;
+    left: 77.6%;
+    bottom: 68.8%;
+    padding: 4px;
+	
+  }
+  #bd14{
+	  /*display:none;*/
+  position: absolute;
+    left: 82%;
+    bottom: 68.5%;
+    padding: 4px;
+  }
+  #bd15{
+	  /*display:none;*/
+    position: absolute;
+    left: 89%;
+    bottom: 68.7%;
+    padding: 4px;
+	
+  }
+  #bd16{
+	  /*display:none;*/
+    position: absolute;
+    left: 69%;
+    bottom: 57.7%;
+    padding: 4px;
+  }
+  #bd17{
+	  /*display:none;*/
+   position: absolute;
+    left: 69%;
+    bottom: 37.9%;
+    padding: 4px;
+  }
+  #bd18{
+	  /*display:none;*/
+    position: absolute;
+    left: 80%;
+    bottom: 38%;
+    padding: 4px;
+  }
+  #bd19{
+	  /*display:none;*/
+  position: absolute;
+    left: 89.8%;
+    bottom: 38.3%;
+    padding: 4px;
+  }
+  #bd20{
+	  /*display:none;*/
+    position: absolute;
+    left: 80%;
+    bottom: 12.3%;
+    padding: 4px;
+  }
+  #bd21{
+	 /*display:none;*/
+  position: absolute;
+    left: 90.6%;
+    bottom: 12.3%;
+    padding: 4px;
+  }
+  #bd22{
+	  /*display:none;*/
+    position: absolute;
+    left: 16%;
+    bottom: 87.3%;
+    padding: 4px;
+  }
+  #bd23{
+	  /*display:none;*/
+    position: absolute;
+    left: 46%;
+    bottom: 87.4%;
+    padding: 4px;
+  }
+  #bd24{
+	  /*display:none;*/
+    position: absolute;
+    left: 15.5%;
+    bottom: 79.4%;
+    padding: 4px;
+  }
+  #bd25{
+	  /*display:none;*/
+    position: absolute;
+    left: 41.8%;
+    bottom: 61.6%;
+    padding: 4px;
+  }
+  #bd26{
+	  /*display:none;*/
+    position: absolute;
+    left: 47%;
+    bottom: 69.9%;
+    padding: 4px;
+  }
+  #bd27{
+	  /*display:none;*/
+    position: absolute;
+    left: 50%;
+    bottom: 87%;
+    padding: 4px;
+  }
+  #bd28{
+	  /*display:none;*/
+   position: absolute;
+    left: 68.8%;
+    bottom: 61%;
+    padding: 4px;
+  }
+  #bd29{
+	  /*display:none;*/
+    position: absolute;
+    left: 73%;
+    bottom: 38%;
+    padding: 4px;
+  }
+  #bd30{
+	  /*display:none;*/
+    position: absolute;
+    left: 74%;
+    bottom: 27%;
+    padding: 4px;
+  }
+
+path, .jtk-endpoint {
+    cursor: pointer;
+}

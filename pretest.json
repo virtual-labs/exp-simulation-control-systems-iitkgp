@@ -1,0 +1,119 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. When the Nyquist plot does not intersect the negative real axis at any finite nonzero frequency, the gain margin is ____",
+      "answers": {
+        "a": "Infinite",
+        "b": "Zero",
+        "c": "Negative",
+        "d": "Unity"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In a unit-step response of the closed loop system,  high bandwidth corresponds to a",
+      "answers": {
+        "a": "Faster rise time",
+        "b": "Slower rise time",
+        "c": "Smaller time constant",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Adding a pole to the forward-path transfer function makes the closed loop system",
+      "answers": {
+        "a": "Less stable while decreasing the bandwidth.",
+        "b": "More stable while increasing the bandwidth.",
+        "c": "Less stable while increasing the bandwidth.",
+        "d": "More stable while decreasing the bandwidth."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In Bode diagrams,frequency ratios are expressed in terms of octaves or decades. An octave is a frequency band from ____ &omega;<sub>1</sub> to _______ &omega;<sub>1</sub>, where &omega;<sub>1</sub> is any frequency value.",
+      "answers": {
+        "a": "1, 2",
+        "b": "1, 10",
+        "c": "2, 10",
+        "d": "1, 8"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. In a bode magnitude plot, which one of the following slopes would be exhibited at high frequencies by a 4th order all-pole system?",
+      "answers": {
+        "a": "-80 dB/decade",
+        "b": "-40 dB/decade",
+        "c": "80 dB/decade",
+        "d": "40 dB/decade"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "6. Open loop transfer function contains one zero in right half of s-plane then",
+      "answers": {
+        "a": "Open loop system is unstable",
+        "b": "Closed loop system is unstable",
+        "c": "Closed loop system is unstable for higher gain",
+        "d": "Closed loop system is stable"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },	
+	
+	
+	{
+      "question": "7. consider that the loop transfer function of a control system is <br/> <img src='images/q3.png'/><br/>The following results are obtained from the Nyquist plot <br/>Gain crossover frequency = 6.22 rad/sec <br/> Phase crossover frequency = 15.88 rad/sec. Find the gain margin for the minimum phase system.",
+      "answers": {
+        "a": "14.82 dB",
+        "b": "3.00 dB",
+        "c": "4.18 dB",
+        "d": "10.21 dB"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	{
+	 "question": "8. When the Nyquist plot of L(jw) passes through the (-1, jO) point, the gain margin (for a minimum phase system) is",
+      "answers": {
+        "a": "0 dB",
+        "b": "Infinite",
+        "c": "1 dB",
+        "d": "Greater than 1 dB"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+	 "question": "9. If a Nyquist plot of G (j&omega;) H (j&omega;) for a closed loop system passes through (-2, j0) point in GH plane, what would be the value of gain margin of the system (minimum phase) in dB ?",
+      "answers": {
+        "a": " 0 dB",
+        "b": "2.0201 dB",
+        "c": "4 dB",
+        "d": "6.0205 dB"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	{
+	 "question": "10. Which of the following statement is correct for a system where the open-loop transfer function is minimum phase?",
+      "answers": {
+        "a": "If the gain margin (GM) is greater than one and the phase margin (PM) is positive, then the control system is stable.",
+        "b": "If the gain margin (GM) is equal to one and the phase margin (PM) is zero degrees, then the control system is marginally stable.",
+        "c": "If the gain margin (GM) is less than one and / or the phase margin (PM) is negative, then the control system is unstable.",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+	
+  ]
+}
