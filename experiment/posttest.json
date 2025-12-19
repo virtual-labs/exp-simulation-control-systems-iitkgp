@@ -2,119 +2,122 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. A 230 V d.c. shunt machine has armature circuit resistance (including brushes) of 0.5 &ohm; and field circuit resistance of 115 &ohm;. If this machine is connected to 230 V supply mains, find the ratio of speed as a generator to the speed as a motor. The line current in each case is 40 A. ",
+      "question": "1. The steady state error for a unit step input is ________",
       "answers": {
-        "a": "1.1896",
-        "b": "2.52",
-        "c": "3.354",
-        "d": "None of these"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "2. If a resistance is added in series with the field winding of d.c. shunt motor, then its",
-      "answers": {
-        "a": "Both speed and torque decreases",
-        "b": "Both speed and torque increases",
-        "c": "Speed decreases, torque increases",
-        "d": "Speed increases, torque decreases"
+        "a": " 1/k<sub>p</sub>",
+        "b": "1/(1 - k<sub>p</sub>) ",
+        "c": "1/2 k<sub>p</sub>",
+        "d": "1/(1 + k<sub>p</sub>)"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "3. A 230 V, 1000 r.p.m. dc shunt motor has field resistance of 115 &ohm; and armature circuit resistance of 0.5 &ohm;. At no load, the motor runs at 1000 r.p.m. with armature current of 4 A and with full field flux. For a load requiring 80 Nm, compute armature current and speed of the motor.",
+      "question": "2. A control system yielded a steady state error of 0.20 for unit step input. A unit integrator is cascaded to this system and unit ramp input is applied to this modified system. What is the value of steady-state error for this modified system ?",
       "answers": {
-        "a": "568.5",
-        "b": "700",
-        "c": "928.3",
-        "d": "None of these"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "4. In dc machines the residual magnetism is present. The order of residual magnetism is ___________",
-      "answers": {
-        "a": "2 to 3 per cent",
-        "b": "10 to 15 per cent",
-        "c": "20 to 25 per cent",
-        "d": "50 to 75 per cent"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "5. If the applied voltage to a dc motor is 220 V, then the back emf for maximum power developped is,",
-      "answers": {
-        "a": "220",
-        "b": "110",
-		"c": "210",
-        "d": "440"
-        
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "6. A dc motor has 0.5 &ohm; resistance between its terminals. It runs at 730 rpm while taking 20A from 300 V supply. Assume there is no saturation, what is the speed it will run when taking only 10A from same supply",
-      "answers": {
-        "a": "365",
-        "b": "730",
-        "c": "1440",
-        "d": "1500"
+        "a": "0.10",
+        "b": "0.15",
+        "c": "0.20",
+        "d": "0.25"
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "7. A 200 V dc generator supplies 4 kw at a terminal voltage of 200 V, the armature resistance being 0.5 &ohm;. If the machine is operated as a motor at the same terminal voltage with the same terminal current, find the ratio of the generator speed N<sub>g</sub> to the motor speed N<sub>m</sub>. ",
+      "question": "3. Feedback control system is basically ______________",
       "answers": {
-        "a": "1.25",
-        "b": "1.105",
-        "c": "0.905",
-        "d": "0.833"
+        "a": "Band pass filter",
+        "b": "Band stop filter",
+        "c": "High pass filter",
+        "d": "Low pass filter"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "8. A 50 kw dc shunt motor is loaded to draw rated armature current at any given speed. When driven at 1.5 times the rated speed by field control, the output power delivered by the motor is approximately ",
+      "question": "4. Consider that the loop transfer function (for a minimum phase system) of a closed-loop system is <br/> <img src='images/q1.png'/><br/>Assume K = 1, T<sub>d</sub> = 0 and find the gain crossover frequency",
       "answers": {
-        "a": "75kw",
-        "b": "100kw",
-        "c": "50kw",
-        "d": "33kw"
-        
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }, 
-    
-	{
-      "question": "9. A dc shunt motor runs at 750 rpm from 250 V supply and is taking a full-load line current of 60 amperes. Its armature and field resistance are 0.4 &ohm; and 125 &ohm; respectively. Assuming 2 V brush drop and negligible armature reaction effect, calculate the no-load speed for a no-load line current of 6 amperes",
-	  "answers": {
-        "a": "75rpm",
-        "b": "652rpm",
-        "c": "822 rpm",
-        "d": "none of the above"
-        
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-	
-	{
-      "question": "10. In which method of speed control, the dc motor acts as constant torque,variable power drive?",
-      "answers": {
-        "a": "Armature resistance control",
-        "b": "Field control",
-        "c": "Both a and b",
+        "a": "0.446 rad/s",
+        "b": "0.114 rad/s",
+        "c": "0.238 rad/s",
         "d": "None of the above"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "5. Consider that the loop transfer function (for a minimum phase system) of a closed-loop system is <br/> <img src='images/q2.png'/><br/> Assume K =1 and find the gain crossover frequency",
+      "answers": {
+        "a": "0.446 rad/s",
+        "b": "1 rad/s",
+        "c": "0.246 rad/s",
+        "d": "None of the above"
+        
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. A system has poles at 0.01 Hz, 1 Hz and 80 Hz, zeroes at 5 Hz, 100 Hz and 200 Hz. The approximate phase of the system response at 20 Hz is ",
+      "answers": {
+        "a": "-90 &deg;",
+        "b": "0 &deg;",
+        "c": "90 &deg; ",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+   {
+      "question": "7. Consider the system represented by the expression given below.<br/> <img src='images/q4.png'/><br/> What would be the total phase value at &omega; = 0?",
+      "answers": {
+        "a": "-90&deg;",
+        "b": "-180&deg;",
+        "c": "-270&deg;",
+        "d": "-360&deg;"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. Due to an addition of pole at origin, the polar plot gets shifted by ___ at &omega; = 0 ?",
+      "answers": {
+        "a": "-90&deg;",
+        "b": "-180&deg;",
+        "c": "-45&deg;",
+        "d": "-60&deg;"
+        
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }, 
+    
+	
+	{
+      "question": "9. For a closed-loop system with loop transfer function L(s) that is of minimum-phase type, the system is closed-loop stable if the L(s) plot that corresponds to the Nyquist path does not enclose the _____ point.",
+      "answers": {
+        "a": "(-1, j0)",
+        "b": "(-2, j0)",
+        "c": "(-1, j5)",
+        "d": "None of the above"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "10. Consider a feedback system (minimum phase system) with gain margin of about 30. At what point does Nyquist plot crosses negative real axis?",
+      "answers": {
+        "a": "-3",
+        "b": "-0.3",
+        "c": "-0.03",
+        "d": "None of the above"
+       
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
+	
+	
   ]
 }
